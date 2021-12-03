@@ -1,0 +1,259 @@
+---
+documentclass: article
+author: "Rishabh Jain, Chengyu Wu, Yunhan Xu, Wei Xiao, George Zhang, Yingzhe Jin"
+header-includes:
+   \usepackage[letterpaper, margin=1in]{geometry}
+   \usepackage{fancyhdr}
+   \pagestyle{fancy}
+   \lhead{19819 A/B Testing, Design, and Implementation}
+   \rhead{Fall 2021}
+   \cfoot{Page \thepage}
+   \renewcommand{\footrulewidth}{0.4pt}
+   \fancypagestyle{plain}{\pagestyle{fancy}}
+   \title{\textbf{Will offering a feature-by-feature comparison table encourage customers to opt for the premium plan?}}
+output: pdf_document
+---
+
+```{=latex}
+\maketitle
+```
+
+```{r include=FALSE}
+# Load libraries
+library(data.table)
+library(stargazer)
+library(dplyr)
+library(ggplot2)
+library(egg)
+
+# Clear workspace
+rm(list=ls())
+
+theme_set(theme_article())
+```
+
+```{r include=FALSE}
+###Data cleaning and preparation
+
+# Load data
+surveyData = fread("survey_data.csv", verbose = FALSE)
+
+# Remove first 2 rows and not required columns
+surveyData = surveyData[-c(1:2), -c(1:6)]
+
+# Renaming columns
+colnames(surveyData) = c("tableResponse", "listResponse", "gender", "age", "income", "monthExpense",
+                         "profWorker", "employerBill", "streamingService", "streamingPayment",
+                         "phoneOS", "noWifiHrs")
+
+# Add treatment indicator (column name: treatment)
+# This is the 'treatment in experiment' / x in regression
+surveyData = surveyData %>%
+   mutate(treatment = ifelse(tableResponse != "", 1, 0))
+
+# Column for final response (column name: response)
+# This is the 'outcome of interest' / y in regression
+# Answers the question: How likely are you to opt for the premium plan
+surveyData = surveyData %>%
+   mutate(response = ifelse(tableResponse != "", tableResponse, listResponse))
+
+# Converting columns to factor
+surveyData$gender = factor(surveyData$gender)
+surveyData$age = factor(surveyData$age, ordered = TRUE,
+                        levels = c("18-24","25-29","30-39","40+"))
+surveyData$income = factor(surveyData$income, ordered = TRUE,
+                           levels = c("$0 - $25,000", "$25,000 - $50,000", "$50,000 - $75,000",
+                              "$75,000 - $100,000", ">$100,000"))
+surveyData$monthExpense = factor(surveyData$monthExpense, ordered = TRUE,
+                                 levels = c("$0 - $1,000", "$1,000 - $2,000", "$2,000 - $3,000",
+                                    "$3,000 - $4,000", ">$4,000"))
+surveyData$profWorker = factor(surveyData$profWorker)
+surveyData$employerBill = factor(surveyData$employerBill)
+surveyData$streamingService = factor(surveyData$streamingService)
+surveyData$streamingPayment = factor(surveyData$streamingPayment, ordered = TRUE,
+                                     levels = c("", "$100 - $150", "$150 - $200", "$50 - $100", "0 - $50",
+                                        ">$200"))
+surveyData$phoneOS = factor(surveyData$phoneOS)
+surveyData$noWifiHrs = factor(surveyData$noWifiHrs, ordered = TRUE,
+                              levels = c("0 - 3 hours", "3 - 6 hours", "6 - 10 hours", "10 - 15 hours", "> 15 hours"))
+surveyData$treatment = factor(surveyData$treatment)
+surveyData$response = factor(surveyData$response, ordered = TRUE,
+                            levels = c("0 - Not likely at all", "1 - Probably not", "2 - Somewhat not likely",
+                                       "3 - Somewhat likely", "4 - Highly likely", "5 - I will surely take the plan"))
+```
+
+## 1. Executive Summary
+
+## 2. Experimental Design
+
+## 3. Descriptive Statistical Analysis
+
+```{r include=FALSE}
+# Separating treated and un-treated data
+treatedData = surveyData[which(surveyData$treatment == 1)]
+untreatedData = surveyData[which(surveyData$treatment == 0)]
+
+### Descriptive Statistical Analysis
+
+# Performing non-parametric independent sample t-test (Mann-Whitney Test)
+# Performed to test if treated and untreated groups are alike
+
+MWTestResult = data.frame(parameter = character(), pvalue = numeric())
+
+# Gender
+testResult = wilcox.test(as.numeric(treatedData$gender),
+                         as.numeric(untreatedData$gender))
+pValue = testResult$p.value
+row = c("gender", pValue)
+MWTestResult = rbind(MWTestResult, row)
+
+# Age
+testResult = wilcox.test(as.numeric(treatedData$age),
+                         as.numeric(untreatedData$age))
+pValue = testResult$p.value
+row = c("age", pValue)
+MWTestResult = rbind(MWTestResult, row)
+
+# Income
+testResult = wilcox.test(as.numeric(treatedData$income),
+                         as.numeric(untreatedData$income))
+pValue = testResult$p.value
+row = c("income", pValue)
+MWTestResult = rbind(MWTestResult, row)
+
+# Monthly Expense
+testResult = wilcox.test(as.numeric(treatedData$monthExpense),
+                         as.numeric(untreatedData$monthExpense))
+pValue = testResult$p.value
+row = c("monthExpense", pValue)
+MWTestResult = rbind(MWTestResult, row)
+
+# Professional Worker
+testResult = wilcox.test(as.numeric(treatedData$profWorker),
+                         as.numeric(untreatedData$profWorker))
+pValue = testResult$p.value
+row = c("profWorker", pValue)
+MWTestResult = rbind(MWTestResult, row)
+
+# Streaming Service
+testResult = wilcox.test(as.numeric(treatedData$streamingService),
+                         as.numeric(untreatedData$streamingService))
+pValue = testResult$p.value
+row = c("streamingService", pValue)
+MWTestResult = rbind(MWTestResult, row)
+
+# Phone OS
+testResult = wilcox.test(as.numeric(treatedData$phoneOS),
+                         as.numeric(untreatedData$phoneOS))
+pValue = testResult$p.value
+row = c("phoneOS", pValue)
+MWTestResult = rbind(MWTestResult, row)
+
+# No Wifi Hrs
+testResult = wilcox.test(as.numeric(treatedData$noWifiHrs),
+                         as.numeric(untreatedData$noWifiHrs))
+pValue = testResult$p.value
+row = c("noWifiHrs", pValue)
+MWTestResult = rbind(MWTestResult, row)
+
+colnames(MWTestResult) = c("parameter", "pvalue")
+
+MWTestResult['pvalue'] = lapply(MWTestResult['pvalue'], as.numeric)
+MWTestResult['pvalue'] = round(MWTestResult['pvalue'], 3)
+MWTestResult = MWTestResult[order(MWTestResult$pvalue), ]
+MWTestResult['Are the groups same?'] = ifelse(MWTestResult$pvalue > 0.05, TRUE, FALSE)
+```
+
+Number of observations in treated set: `r nrow(treatedData)`
+
+Number of observations in untreated set: `r nrow(untreatedData)`
+
+```{r echo=FALSE, results='asis'}
+stargazer(MWTestResult[],
+          type = 'latex',
+          header = FALSE,
+          summary = FALSE,
+          rownames = FALSE,
+          title = "Mann-Whitney Test Results
+          (Non-Parametric equivalent of independent samples t-test)")
+```
+
+```{r, include=FALSE}
+### Descriptive Statistical Analysis Visualizations
+
+# Gender
+ggplot(surveyData, aes(x = gender, group = 1)) +
+   geom_bar(aes(y = ..prop..), stat = 'count', fill = "lightblue") +
+   scale_y_continuous(labels = scales::percent_format()) +
+   facet_grid(~ treatment) +
+   theme(axis.text.x = element_text(angle = 90)) +
+   labs(title = "Gender distribution in treated and untreated group",
+        caption = "*0 means untreated and 1 means treated")
+
+# Age
+ggplot(surveyData, aes(x = age, group = 1)) +
+   geom_bar(aes(y = ..prop..), stat = 'count', fill = "lightblue") +
+   scale_y_continuous(labels = scales::percent_format()) +
+   facet_grid(~ treatment) +
+   labs(title = "Age distribution in treated and untreated group",
+        caption = "*0 means untreated and 1 means treated")
+
+# Income
+ggplot(surveyData, aes(x = income, group = 1)) +
+   geom_bar(aes(y = ..prop..), stat = 'count', fill = "lightblue") +
+   scale_y_continuous(labels = scales::percent_format()) +
+   facet_grid(~ treatment) +
+   theme(axis.text.x = element_text(angle = 90)) +
+   labs(title = "Income distribution in treated and untreated group",
+        caption = "*0 means untreated and 1 means treated")
+
+
+# Monthly Expense
+ggplot(surveyData, aes(x = monthExpense, group = 1)) +
+   geom_bar(aes(y = ..prop..), stat = 'count', fill = "lightblue") +
+   scale_y_continuous(labels = scales::percent_format()) +
+   facet_grid(~ treatment) +
+   theme(axis.text.x = element_text(angle = 90)) +
+   labs(title = "Distribution of monthly expenses in treated and untreated group",
+        caption = "*0 means untreated and 1 means treated
+        ** Expenses are beside mortagage / rent")
+
+# Professionally Employed
+ggplot(surveyData, aes(x = profWorker, group = 1)) +
+   geom_bar(aes(y = ..prop..), stat = 'count', fill = "lightblue") +
+   scale_y_continuous(labels = scales::percent_format()) +
+   facet_grid(~ treatment) +
+   labs(title = "Distribution of professional workers in treated and untreated group",
+        caption = "*0 means untreated and 1 means treated")
+
+# Streaming Service Subscribers
+ggplot(surveyData, aes(x = streamingService, group = 1)) +
+   geom_bar(aes(y = ..prop..), stat = 'count', fill = "lightblue") +
+   scale_y_continuous(labels = scales::percent_format()) +
+   facet_grid(~ treatment) +
+   labs(title = "Distribution of streaming service subscribers in treated and untreated group",
+        caption = "*0 means untreated and 1 means treated")
+
+# Mobile OS
+ggplot(surveyData, aes(x = phoneOS, group = 1)) +
+   geom_bar(aes(y = ..prop..), stat = 'count', fill = "lightblue") +
+   scale_y_continuous(labels = scales::percent_format()) +
+   facet_grid(~ treatment) +
+   labs(title = "iOS/Android users' distribution in treated and untreated group",
+        caption = "*0 means untreated and 1 means treated")
+
+# No Wifi Hours
+ggplot(surveyData, aes(x = noWifiHrs, group = 1)) +
+   geom_bar(aes(y = ..prop..), stat = 'count', fill = "lightblue") +
+   scale_y_continuous(labels = scales::percent_format()) +
+   theme(axis.text.x = element_text(angle = 90)) +
+   facet_grid(~ treatment) +
+   labs(title = "Distribution of No-Wifi-Hrs in treated and untreated group",
+        caption = "*0 means untreated and 1 means treated")
+```
+
+## 4. Regressions
+
+## 5. Results
+
+## 6. Conclusion
