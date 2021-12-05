@@ -39,7 +39,7 @@ theme_set(theme_article())
 surveyData = fread("survey_data.csv", verbose = FALSE)
 
 # Remove first 2 rows and not required columns
-surveyData = surveyData[-c(1:2), -c(1:6)]
+surveyData = surveyData[-c(1:2), ]
 
 # Renaming columns
 colnames(surveyData) = c("tableResponse", "listResponse", "gender", "age", "income", "monthExpense",
