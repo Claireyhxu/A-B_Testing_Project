@@ -1,0 +1,574 @@
+Q13,Q14,Q1,Q2,Q3,Q17,Q4,Q5,Q7,Q8,Q9,Q11
+"Phone Plan Description
+
+
+
+
+
+Compared to the standard plan, how likely is it that you will opt for the premium plan?",Phone Plan Description:There are two phone plans that you can choose from: a Standard Plan ($29.99/m,What is your gender?,What is your age?,What is your estimated (personal) annual income level (in USD)?,"Besides rent / mortgage, what is estimated average monthly expenses (in USD)?",Are you working professionally?,Does your employer pay for your phone bill?,Are you subscribed to any streaming service?,"If yes, how much do you pay monthly for the streaming service? (in USD)",Are you an iOS or Android user?,"On average, how many hours per day you DON'T have access to wifi?"
+"{""ImportId"":""QID20""}","{""ImportId"":""QID21""}","{""ImportId"":""QID3""}","{""ImportId"":""QID5""}","{""ImportId"":""QID6""}","{""ImportId"":""QID24""}","{""ImportId"":""QID8""}","{""ImportId"":""QID9""}","{""ImportId"":""QID12""}","{""ImportId"":""QID14""}","{""ImportId"":""QID15""}","{""ImportId"":""QID18""}"
+5 - I will surely take the plan,,Male,18-24,"$0 - $25,000","$1,000 - $2,000",Yes,No,No,,iOS,10 - 15 hours
+,3 - Somewhat likely,Male,18-24,">$100,000","$1,000 - $2,000",No,,No,,iOS,0 - 3 hours
+,4 - Highly likely,Male,18-24,"$75,000 - $100,000","$1,000 - $2,000",Yes,No,No,,iOS,0 - 3 hours
+,5 - I will surely take the plan,Female,18-24,"$0 - $25,000","$2,000 - $3,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+4 - Highly likely,,Male,18-24,"$25,000 - $50,000","$1,000 - $2,000",No,,No,,iOS,0 - 3 hours
+3 - Somewhat likely,,Male,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,$50 - $100,iOS,0 - 3 hours
+1 - Probably not,,Male,18-24,"$25,000 - $50,000","$1,000 - $2,000",No,,No,,iOS,0 - 3 hours
+,3 - Somewhat likely,Female,18-24,"$0 - $25,000","$2,000 - $3,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+1 - Probably not,,Female,18-24,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+1 - Probably not,,Female,18-24,"$25,000 - $50,000","$0 - $1,000",No,,No,,iOS,3 - 6 hours
+1 - Probably not,,Female,18-24,"$0 - $25,000","$1,000 - $2,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+,5 - I will surely take the plan,Prefer not to say,40+,"$25,000 - $50,000","$2,000 - $3,000",No,,Yes,$100 - $150,Android,10 - 15 hours
+5 - I will surely take the plan,,Male,18-24,"$75,000 - $100,000","$2,000 - $3,000",No,,Yes,$50 - $100,iOS,3 - 6 hours
+0 - Not likely at all,,Female,18-24,"$0 - $25,000","$1,000 - $2,000",No,,No,,iOS,6 - 10 hours
+,1 - Probably not,Female,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,iOS,6 - 10 hours
+,3 - Somewhat likely,Male,18-24,"$0 - $25,000","$0 - $1,000",No,,No,,iOS,0 - 3 hours
+2 - Somewhat not likely,,Female,18-24,"$0 - $25,000","$0 - $1,000",No,,No,,Android,0 - 3 hours
+,1 - Probably not,Male,25-29,"$25,000 - $50,000","$1,000 - $2,000",No,,Yes,0 - $50,iOS,3 - 6 hours
+,0 - Not likely at all,Male,25-29,"$25,000 - $50,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+0 - Not likely at all,,Male,18-24,"$25,000 - $50,000","$0 - $1,000",Yes,No,No,,Android,0 - 3 hours
+3 - Somewhat likely,,Female,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+,4 - Highly likely,Male,18-24,"$25,000 - $50,000","$0 - $1,000",No,,No,,Android,0 - 3 hours
+1 - Probably not,,Female,18-24,"$50,000 - $75,000","$0 - $1,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+5 - I will surely take the plan,,Male,18-24,">$100,000",">$4,000",Yes,Yes,Yes,>$200,Android,3 - 6 hours
+,4 - Highly likely,Male,18-24,"$50,000 - $75,000","$2,000 - $3,000",No,,Yes,0 - $50,iOS,6 - 10 hours
+0 - Not likely at all,,Male,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,iOS,3 - 6 hours
+3 - Somewhat likely,,Female,18-24,"$0 - $25,000","$1,000 - $2,000",No,,Yes,,iOS,0 - 3 hours
+4 - Highly likely,,Male,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,iOS,6 - 10 hours
+,1 - Probably not,Male,18-24,"$0 - $25,000","$1,000 - $2,000",Yes,,No,,iOS,0 - 3 hours
+1 - Probably not,,Male,18-24,"$0 - $25,000","$0 - $1,000",No,,No,,iOS,0 - 3 hours
+0 - Not likely at all,,Female,18-24,"$75,000 - $100,000","$1,000 - $2,000",No,,No,,iOS,6 - 10 hours
+,3 - Somewhat likely,Male,18-24,"$0 - $25,000","$0 - $1,000",No,,No,,iOS,0 - 3 hours
+1 - Probably not,,Male,18-24,"$0 - $25,000","$1,000 - $2,000",No,,No,,iOS,0 - 3 hours
+2 - Somewhat not likely,,Male,30-39,"$25,000 - $50,000","$1,000 - $2,000",No,,No,,iOS,3 - 6 hours
+4 - Highly likely,,Female,18-24,"$0 - $25,000","$2,000 - $3,000",No,,Yes,$100 - $150,iOS,0 - 3 hours
+,2 - Somewhat not likely,Male,18-24,">$100,000",">$4,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+,2 - Somewhat not likely,Female,18-24,"$25,000 - $50,000","$0 - $1,000",No,,No,,iOS,0 - 3 hours
+,4 - Highly likely,Male,18-24,"$25,000 - $50,000","$1,000 - $2,000",Yes,,Yes,0 - $50,iOS,6 - 10 hours
+4 - Highly likely,,Female,25-29,"$0 - $25,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+4 - Highly likely,,Female,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,$50 - $100,iOS,0 - 3 hours
+1 - Probably not,,Female,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+,3 - Somewhat likely,Female,18-24,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+0 - Not likely at all,,Female,18-24,"$0 - $25,000",">$4,000",No,,No,,iOS,6 - 10 hours
+0 - Not likely at all,,Male,30-39,"$50,000 - $75,000","$2,000 - $3,000",Yes,No,No,,iOS,0 - 3 hours
+,2 - Somewhat not likely,Male,25-29,">$100,000","$3,000 - $4,000",Yes,No,No,,iOS,0 - 3 hours
+,4 - Highly likely,Female,18-24,"$25,000 - $50,000","$0 - $1,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+,4 - Highly likely,Female,25-29,">$100,000","$1,000 - $2,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+3 - Somewhat likely,,Male,18-24,"$0 - $25,000","$0 - $1,000",No,,No,,iOS,0 - 3 hours
+4 - Highly likely,,Male,18-24,"$25,000 - $50,000","$1,000 - $2,000",No,,Yes,0 - $50,iOS,6 - 10 hours
+,0 - Not likely at all,Male,18-24,"$0 - $25,000","$0 - $1,000",No,,No,,Android,3 - 6 hours
+3 - Somewhat likely,,Female,18-24,"$0 - $25,000","$0 - $1,000",No,,No,,iOS,0 - 3 hours
+2 - Somewhat not likely,,Female,18-24,"$0 - $25,000","$0 - $1,000",No,,No,,iOS,6 - 10 hours
+3 - Somewhat likely,,Female,18-24,"$0 - $25,000","$1,000 - $2,000",No,,No,,iOS,3 - 6 hours
+3 - Somewhat likely,,Male,18-24,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,iOS,0 - 3 hours
+4 - Highly likely,,Non-binary / third gender,18-24,"$0 - $25,000","$0 - $1,000",No,,No,,iOS,0 - 3 hours
+1 - Probably not,,Male,18-24,"$25,000 - $50,000","$2,000 - $3,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+,5 - I will surely take the plan,Male,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,$50 - $100,Android,6 - 10 hours
+1 - Probably not,,Female,18-24,"$0 - $25,000","$1,000 - $2,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+3 - Somewhat likely,,Male,18-24,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+,3 - Somewhat likely,Female,18-24,"$0 - $25,000","$0 - $1,000",No,,No,,Android,10 - 15 hours
+3 - Somewhat likely,,Male,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+,3 - Somewhat likely,Female,25-29,"$0 - $25,000","$0 - $1,000",No,,No,,iOS,0 - 3 hours
+,5 - I will surely take the plan,Female,40+,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,6 - 10 hours
+,1 - Probably not,Male,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+2 - Somewhat not likely,,Female,18-24,"$0 - $25,000","$0 - $1,000",No,,No,,iOS,0 - 3 hours
+4 - Highly likely,,Female,18-24,"$50,000 - $75,000","$2,000 - $3,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+,1 - Probably not,Female,18-24,"$25,000 - $50,000","$0 - $1,000",No,,No,,iOS,0 - 3 hours
+5 - I will surely take the plan,,Male,25-29,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+3 - Somewhat likely,,Male,25-29,"$0 - $25,000","$0 - $1,000",No,,No,,Android,0 - 3 hours
+,3 - Somewhat likely,Female,18-24,"$0 - $25,000","$2,000 - $3,000",No,,No,,iOS,10 - 15 hours
+4 - Highly likely,,Female,18-24,"$0 - $25,000","$1,000 - $2,000",No,,Yes,$50 - $100,iOS,0 - 3 hours
+3 - Somewhat likely,,Male,18-24,"$0 - $25,000","$0 - $1,000",No,,No,,iOS,0 - 3 hours
+5 - I will surely take the plan,,Female,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,$50 - $100,iOS,3 - 6 hours
+5 - I will surely take the plan,,Male,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,iOS,> 15 hours
+,0 - Not likely at all,Female,18-24,"$0 - $25,000","$0 - $1,000",No,,No,,iOS,3 - 6 hours
+,5 - I will surely take the plan,Male,18-24,"$0 - $25,000","$1,000 - $2,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+,1 - Probably not,Male,18-24,"$0 - $25,000","$0 - $1,000",No,,No,,Android,3 - 6 hours
+4 - Highly likely,,Male,25-29,"$0 - $25,000","$1,000 - $2,000",No,,No,,iOS,3 - 6 hours
+2 - Somewhat not likely,,Female,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+,2 - Somewhat not likely,Female,18-24,"$0 - $25,000","$0 - $1,000",No,,No,,Android,0 - 3 hours
+4 - Highly likely,,Male,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,4 - Highly likely,Male,18-24,"$0 - $25,000","$1,000 - $2,000",No,,Yes,0 - $50,Android,0 - 3 hours
+,5 - I will surely take the plan,Male,30-39,">$100,000",">$4,000",Yes,No,Yes,$150 - $200,iOS,6 - 10 hours
+3 - Somewhat likely,,Male,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+3 - Somewhat likely,,Female,25-29,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,3 - 6 hours
+1 - Probably not,,Female,30-39,"$0 - $25,000","$3,000 - $4,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+1 - Probably not,,Female,25-29,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+,0 - Not likely at all,Female,25-29,"$0 - $25,000","$0 - $1,000",No,,No,,iOS,0 - 3 hours
+4 - Highly likely,,Female,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+,2 - Somewhat not likely,Male,30-39,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+,4 - Highly likely,Female,25-29,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+,2 - Somewhat not likely,Female,25-29,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+4 - Highly likely,,Female,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,iOS,3 - 6 hours
+,1 - Probably not,Male,18-24,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,$100 - $150,iOS,0 - 3 hours
+,4 - Highly likely,Female,25-29,"$75,000 - $100,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,6 - 10 hours
+2 - Somewhat not likely,,Male,30-39,"$0 - $25,000","$2,000 - $3,000",No,,Yes,$50 - $100,Android,0 - 3 hours
+,4 - Highly likely,Male,25-29,"$25,000 - $50,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,3 - 6 hours
+4 - Highly likely,,Female,25-29,"$25,000 - $50,000","$2,000 - $3,000",Yes,Yes,No,,Android,3 - 6 hours
+,4 - Highly likely,Male,30-39,"$50,000 - $75,000","$2,000 - $3,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+1 - Probably not,,Male,18-24,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,3 - 6 hours
+,4 - Highly likely,Female,25-29,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+,3 - Somewhat likely,Female,25-29,"$0 - $25,000","$0 - $1,000",No,,No,,Android,> 15 hours
+,3 - Somewhat likely,Male,30-39,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+3 - Somewhat likely,,Male,25-29,"$50,000 - $75,000","$2,000 - $3,000",Yes,No,Yes,$100 - $150,Android,3 - 6 hours
+,3 - Somewhat likely,Male,30-39,"$50,000 - $75,000","$2,000 - $3,000",No,,Yes,$50 - $100,Android,3 - 6 hours
+,4 - Highly likely,Female,40+,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,No,,iOS,3 - 6 hours
+4 - Highly likely,,Male,30-39,"$25,000 - $50,000","$0 - $1,000",No,,No,,Android,0 - 3 hours
+3 - Somewhat likely,,Male,25-29,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,No,,Android,6 - 10 hours
+3 - Somewhat likely,,Female,25-29,"$50,000 - $75,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+,5 - I will surely take the plan,Male,40+,"$25,000 - $50,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,4 - Highly likely,Male,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+3 - Somewhat likely,,Male,25-29,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,4 - Highly likely,Male,25-29,"$25,000 - $50,000","$1,000 - $2,000",No,,No,,iOS,3 - 6 hours
+3 - Somewhat likely,,Male,30-39,"$75,000 - $100,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,3 - 6 hours
+2 - Somewhat not likely,,Female,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+2 - Somewhat not likely,,Male,30-39,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,2 - Somewhat not likely,Male,40+,">$100,000","$2,000 - $3,000",Yes,No,Yes,0 - $50,iOS,6 - 10 hours
+,4 - Highly likely,Female,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,4 - Highly likely,Female,30-39,"$0 - $25,000","$1,000 - $2,000",Yes,Yes,Yes,0 - $50,Android,> 15 hours
+4 - Highly likely,,Male,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$150 - $200,Android,10 - 15 hours
+,4 - Highly likely,Male,18-24,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+,5 - I will surely take the plan,Female,40+,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,3 - 6 hours
+,3 - Somewhat likely,Male,25-29,"$75,000 - $100,000","$2,000 - $3,000",No,,Yes,$100 - $150,Android,3 - 6 hours
+,4 - Highly likely,Male,25-29,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,Android,3 - 6 hours
+,4 - Highly likely,Male,25-29,"$75,000 - $100,000","$3,000 - $4,000",Yes,Yes,Yes,$50 - $100,iOS,3 - 6 hours
+,5 - I will surely take the plan,Male,25-29,">$100,000","$3,000 - $4,000",Yes,Yes,Yes,$150 - $200,Android,6 - 10 hours
+,5 - I will surely take the plan,Male,30-39,"$25,000 - $50,000","$2,000 - $3,000",Yes,Yes,No,,Android,3 - 6 hours
+3 - Somewhat likely,,Male,40+,"$50,000 - $75,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+,5 - I will surely take the plan,Female,30-39,"$25,000 - $50,000",">$4,000",Yes,Yes,Yes,$100 - $150,iOS,3 - 6 hours
+3 - Somewhat likely,,Male,18-24,"$0 - $25,000","$0 - $1,000",Yes,No,No,,Android,0 - 3 hours
+3 - Somewhat likely,,Male,25-29,"$25,000 - $50,000","$1,000 - $2,000",No,,Yes,$50 - $100,Android,6 - 10 hours
+,5 - I will surely take the plan,Female,25-29,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+4 - Highly likely,,Male,30-39,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,6 - 10 hours
+,4 - Highly likely,Male,40+,"$25,000 - $50,000","$3,000 - $4,000",No,,No,,Android,3 - 6 hours
+5 - I will surely take the plan,,Male,25-29,"$25,000 - $50,000","$2,000 - $3,000",Yes,Yes,Yes,$50 - $100,Android,0 - 3 hours
+3 - Somewhat likely,,Female,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,iOS,3 - 6 hours
+,3 - Somewhat likely,Male,30-39,"$75,000 - $100,000","$2,000 - $3,000",Yes,No,No,,iOS,3 - 6 hours
+,5 - I will surely take the plan,Female,30-39,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,iOS,0 - 3 hours
+,4 - Highly likely,Female,30-39,"$0 - $25,000","$1,000 - $2,000",Yes,No,Yes,$100 - $150,Android,10 - 15 hours
+5 - I will surely take the plan,,Female,30-39,"$75,000 - $100,000","$3,000 - $4,000",Yes,Yes,Yes,$50 - $100,Android,6 - 10 hours
+,4 - Highly likely,Female,30-39,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,3 - Somewhat likely,Male,25-29,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+3 - Somewhat likely,,Female,40+,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,No,,Android,0 - 3 hours
+4 - Highly likely,,Male,30-39,"$50,000 - $75,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+5 - I will surely take the plan,,Male,40+,">$100,000",">$4,000",Yes,No,Yes,>$200,iOS,3 - 6 hours
+5 - I will surely take the plan,,Female,25-29,"$0 - $25,000","$2,000 - $3,000",Yes,Yes,Yes,$50 - $100,iOS,10 - 15 hours
+,4 - Highly likely,Male,25-29,"$25,000 - $50,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+,2 - Somewhat not likely,Female,30-39,"$50,000 - $75,000","$0 - $1,000",No,,No,,iOS,0 - 3 hours
+,3 - Somewhat likely,Male,40+,"$50,000 - $75,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+3 - Somewhat likely,,Female,40+,"$25,000 - $50,000","$0 - $1,000",Yes,Yes,Yes,0 - $50,Android,0 - 3 hours
+,5 - I will surely take the plan,Male,30-39,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+,4 - Highly likely,Female,40+,">$100,000","$0 - $1,000",Yes,No,No,,iOS,0 - 3 hours
+1 - Probably not,,Female,40+,"$0 - $25,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,iOS,0 - 3 hours
+,4 - Highly likely,Female,25-29,"$75,000 - $100,000","$1,000 - $2,000",No,,Yes,0 - $50,iOS,3 - 6 hours
+4 - Highly likely,,Male,25-29,"$25,000 - $50,000","$3,000 - $4,000",No,,Yes,$50 - $100,Android,0 - 3 hours
+4 - Highly likely,,Female,40+,"$50,000 - $75,000","$1,000 - $2,000",Yes,Yes,No,,Android,3 - 6 hours
+,3 - Somewhat likely,Male,30-39,"$25,000 - $50,000","$3,000 - $4,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+,5 - I will surely take the plan,Female,25-29,"$50,000 - $75,000","$3,000 - $4,000",No,,Yes,$100 - $150,Android,6 - 10 hours
+,4 - Highly likely,Male,30-39,"$25,000 - $50,000","$1,000 - $2,000",No,,Yes,0 - $50,Android,3 - 6 hours
+4 - Highly likely,,Male,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,Android,6 - 10 hours
+,4 - Highly likely,Female,30-39,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+4 - Highly likely,,Female,30-39,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,6 - 10 hours
+4 - Highly likely,,Female,40+,">$100,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+,4 - Highly likely,Male,30-39,"$50,000 - $75,000","$3,000 - $4,000",No,,Yes,$50 - $100,Android,0 - 3 hours
+4 - Highly likely,,Male,40+,"$25,000 - $50,000","$1,000 - $2,000",No,,Yes,$50 - $100,iOS,0 - 3 hours
+0 - Not likely at all,,Male,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,No,,iOS,0 - 3 hours
+3 - Somewhat likely,,Male,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,iOS,3 - 6 hours
+,5 - I will surely take the plan,Male,40+,"$0 - $25,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+,3 - Somewhat likely,Female,40+,"$0 - $25,000","$0 - $1,000",No,,Yes,$50 - $100,Android,0 - 3 hours
+3 - Somewhat likely,,Male,30-39,"$25,000 - $50,000","$3,000 - $4,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+3 - Somewhat likely,,Female,25-29,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,4 - Highly likely,Male,40+,"$0 - $25,000","$0 - $1,000",Yes,No,No,,Android,0 - 3 hours
+3 - Somewhat likely,,Female,30-39,"$0 - $25,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,Android,10 - 15 hours
+3 - Somewhat likely,,Male,30-39,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,Android,3 - 6 hours
+1 - Probably not,,Male,30-39,"$50,000 - $75,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,6 - 10 hours
+5 - I will surely take the plan,,Male,30-39,"$25,000 - $50,000","$2,000 - $3,000",Yes,Yes,No,,Android,3 - 6 hours
+1 - Probably not,,Female,30-39,"$25,000 - $50,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,0 - Not likely at all,Prefer not to say,40+,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,No,,iOS,0 - 3 hours
+3 - Somewhat likely,,Male,30-39,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,0 - $50,Android,0 - 3 hours
+2 - Somewhat not likely,,Female,25-29,"$50,000 - $75,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,iOS,0 - 3 hours
+3 - Somewhat likely,,Male,25-29,"$75,000 - $100,000","$2,000 - $3,000",Yes,Yes,Yes,>$200,Android,0 - 3 hours
+,1 - Probably not,Non-binary / third gender,40+,"$25,000 - $50,000","$1,000 - $2,000",No,,Yes,$100 - $150,Android,0 - 3 hours
+3 - Somewhat likely,,Female,40+,"$0 - $25,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+,4 - Highly likely,Male,30-39,"$25,000 - $50,000","$0 - $1,000",Yes,Yes,Yes,0 - $50,Android,> 15 hours
+,3 - Somewhat likely,Male,18-24,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,iOS,3 - 6 hours
+,4 - Highly likely,Female,40+,"$50,000 - $75,000","$3,000 - $4,000",Yes,Yes,Yes,$100 - $150,iOS,6 - 10 hours
+,4 - Highly likely,Female,25-29,"$25,000 - $50,000","$2,000 - $3,000",No,,No,,Android,6 - 10 hours
+,4 - Highly likely,Male,40+,"$25,000 - $50,000","$3,000 - $4,000",Yes,Yes,Yes,$100 - $150,iOS,3 - 6 hours
+,4 - Highly likely,Male,30-39,"$50,000 - $75,000","$2,000 - $3,000",Yes,No,No,,Android,0 - 3 hours
+,5 - I will surely take the plan,Male,30-39,"$25,000 - $50,000","$2,000 - $3,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+,5 - I will surely take the plan,Female,30-39,"$0 - $25,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+2 - Somewhat not likely,,Female,18-,">$100,000","$0 - $1,000",Yes,Yes,No,,iOS,10 - 15 hours
+4 - Highly likely,,Female,40+,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,iOS,3 - 6 hours
+,2 - Somewhat not likely,Female,25-29,"$75,000 - $100,000","$1,000 - $2,000",Yes,No,No,,Android,6 - 10 hours
+,1 - Probably not,Male,25-29,"$25,000 - $50,000","$2,000 - $3,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+3 - Somewhat likely,,Female,25-29,"$25,000 - $50,000","$2,000 - $3,000",No,,No,,iOS,0 - 3 hours
+3 - Somewhat likely,,Male,40+,"$25,000 - $50,000","$0 - $1,000",No,,Yes,$50 - $100,Android,3 - 6 hours
+3 - Somewhat likely,,Male,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,Yes,No,,Android,0 - 3 hours
+5 - I will surely take the plan,,Female,25-29,"$50,000 - $75,000","$3,000 - $4,000",Yes,Yes,No,,Android,6 - 10 hours
+,3 - Somewhat likely,Female,30-39,"$25,000 - $50,000","$0 - $1,000",Yes,Yes,Yes,$50 - $100,Android,6 - 10 hours
+,4 - Highly likely,Male,30-39,"$0 - $25,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+4 - Highly likely,,Female,30-39,"$0 - $25,000","$1,000 - $2,000",Yes,Yes,Yes,0 - $50,Android,0 - 3 hours
+2 - Somewhat not likely,,Male,25-29,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,6 - 10 hours
+5 - I will surely take the plan,,Male,30-39,"$50,000 - $75,000","$3,000 - $4,000",Yes,Yes,Yes,0 - $50,Android,3 - 6 hours
+3 - Somewhat likely,,Male,40+,"$25,000 - $50,000","$0 - $1,000",Yes,,Yes,0 - $50,Android,0 - 3 hours
+5 - I will surely take the plan,,Male,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,0 - 3 hours
+4 - Highly likely,,Female,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,iOS,3 - 6 hours
+,3 - Somewhat likely,Female,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+3 - Somewhat likely,,Female,18-24,"$25,000 - $50,000","$1,000 - $2,000",No,,Yes,0 - $50,Android,0 - 3 hours
+,5 - I will surely take the plan,Male,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,Yes,Yes,0 - $50,iOS,> 15 hours
+,1 - Probably not,Male,40+,"$75,000 - $100,000","$2,000 - $3,000",No,,No,,iOS,6 - 10 hours
+0 - Not likely at all,,Female,40+,"$0 - $25,000","$1,000 - $2,000",Yes,No,No,,Android,0 - 3 hours
+,3 - Somewhat likely,Male,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,Android,3 - 6 hours
+,5 - I will surely take the plan,Male,18-24,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+2 - Somewhat not likely,,Female,40+,"$75,000 - $100,000","$1,000 - $2,000",Yes,Yes,No,,Android,0 - 3 hours
+4 - Highly likely,,Female,18-24,"$25,000 - $50,000","$1,000 - $2,000",No,,No,,iOS,3 - 6 hours
+,4 - Highly likely,Female,25-29,">$100,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,0 - 3 hours
+1 - Probably not,,Female,30-39,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,0 - 3 hours
+4 - Highly likely,,Male,30-39,"$50,000 - $75,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+3 - Somewhat likely,,Female,18-24,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,No,,iOS,3 - 6 hours
+4 - Highly likely,,Male,30-39,"$25,000 - $50,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,6 - 10 hours
+2 - Somewhat not likely,,Male,30-39,"$50,000 - $75,000","$2,000 - $3,000",No,,No,,Android,6 - 10 hours
+,5 - I will surely take the plan,Female,30-39,"$25,000 - $50,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,6 - 10 hours
+,5 - I will surely take the plan,Female,18-24,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,iOS,3 - 6 hours
+4 - Highly likely,,Male,25-29,"$0 - $25,000","$1,000 - $2,000",Yes,No,No,,Android,3 - 6 hours
+4 - Highly likely,,Female,40+,"$75,000 - $100,000","$2,000 - $3,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+1 - Probably not,,Female,30-39,"$0 - $25,000","$1,000 - $2,000",No,,Yes,0 - $50,iOS,6 - 10 hours
+3 - Somewhat likely,,Male,25-29,"$75,000 - $100,000","$3,000 - $4,000",Yes,No,Yes,$100 - $150,iOS,0 - 3 hours
+,3 - Somewhat likely,Female,30-39,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,No,,iOS,3 - 6 hours
+,5 - I will surely take the plan,Female,18-24,"$75,000 - $100,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,3 - 6 hours
+,3 - Somewhat likely,Female,30-39,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,Android,0 - 3 hours
+,3 - Somewhat likely,Male,25-29,"$50,000 - $75,000","$1,000 - $2,000",Yes,Yes,No,,Android,6 - 10 hours
+3 - Somewhat likely,,Female,25-29,"$0 - $25,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,Android,0 - 3 hours
+4 - Highly likely,,Male,30-39,"$50,000 - $75,000",">$4,000",Yes,Yes,Yes,0 - $50,iOS,6 - 10 hours
+,3 - Somewhat likely,Female,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,No,,Android,3 - 6 hours
+,4 - Highly likely,Male,30-39,"$50,000 - $75,000","$3,000 - $4,000",Yes,Yes,No,,iOS,10 - 15 hours
+3 - Somewhat likely,,Male,25-29,"$75,000 - $100,000","$2,000 - $3,000",Yes,Yes,Yes,>$200,Android,6 - 10 hours
+,4 - Highly likely,Female,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,Android,0 - 3 hours
+3 - Somewhat likely,,Female,40+,"$25,000 - $50,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+3 - Somewhat likely,,Male,25-29,"$25,000 - $50,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,4 - Highly likely,Male,18-24,"$50,000 - $75,000",">$4,000",Yes,Yes,Yes,0 - $50,iOS,0 - 3 hours
+2 - Somewhat not likely,,Male,30-39,">$100,000",">$4,000",Yes,No,Yes,$100 - $150,Android,0 - 3 hours
+,0 - Not likely at all,Female,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,Android,0 - 3 hours
+4 - Highly likely,,Male,18-24,"$50,000 - $75,000","$3,000 - $4,000",Yes,Yes,Yes,0 - $50,iOS,0 - 3 hours
+,3 - Somewhat likely,Female,30-39,"$75,000 - $100,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+3 - Somewhat likely,,Female,40+,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+3 - Somewhat likely,,Female,40+,"$25,000 - $50,000","$1,000 - $2,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+,4 - Highly likely,Female,25-29,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+3 - Somewhat likely,,Male,30-39,"$50,000 - $75,000","$2,000 - $3,000",No,,Yes,$50 - $100,Android,3 - 6 hours
+4 - Highly likely,,Male,40+,">$100,000","$3,000 - $4,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+3 - Somewhat likely,,Male,25-29,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,3 - 6 hours
+4 - Highly likely,,Male,40+,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,iOS,3 - 6 hours
+4 - Highly likely,,Male,40+,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+4 - Highly likely,,Female,40+,"$0 - $25,000","$0 - $1,000",Yes,Yes,Yes,$50 - $100,Android,6 - 10 hours
+,4 - Highly likely,Male,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,No,,Android,0 - 3 hours
+1 - Probably not,,Female,30-39,"$25,000 - $50,000","$0 - $1,000",Yes,No,No,,Android,0 - 3 hours
+2 - Somewhat not likely,,Male,25-29,"$25,000 - $50,000","$0 - $1,000",Yes,No,No,,Android,3 - 6 hours
+,3 - Somewhat likely,Female,25-29,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+,0 - Not likely at all,Female,40+,"$0 - $25,000","$1,000 - $2,000",No,,No,,Android,10 - 15 hours
+0 - Not likely at all,,Female,40+,"$0 - $25,000","$1,000 - $2,000",Yes,No,No,,Android,0 - 3 hours
+,3 - Somewhat likely,Male,40+,"$75,000 - $100,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,iOS,3 - 6 hours
+,2 - Somewhat not likely,Male,30-39,"$75,000 - $100,000","$2,000 - $3,000",Yes,No,Yes,$50 - $100,Android,10 - 15 hours
+4 - Highly likely,,Male,25-29,"$75,000 - $100,000","$3,000 - $4,000",Yes,No,Yes,$100 - $150,iOS,10 - 15 hours
+4 - Highly likely,,Female,18-24,"$75,000 - $100,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,3 - 6 hours
+0 - Not likely at all,,Male,25-29,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+5 - I will surely take the plan,,Male,30-39,"$50,000 - $75,000","$3,000 - $4,000",Yes,No,Yes,$50 - $100,iOS,0 - 3 hours
+,2 - Somewhat not likely,Male,40+,"$25,000 - $50,000","$2,000 - $3,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+3 - Somewhat likely,,Female,40+,"$50,000 - $75,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+,3 - Somewhat likely,Male,40+,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,3 - Somewhat likely,Male,25-29,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,0 - $50,iOS,0 - 3 hours
+3 - Somewhat likely,,Female,30-39,"$50,000 - $75,000","$2,000 - $3,000",Yes,No,Yes,$50 - $100,iOS,6 - 10 hours
+4 - Highly likely,,Male,30-39,">$100,000","$1,000 - $2,000",Yes,No,No,,Android,0 - 3 hours
+,3 - Somewhat likely,Female,30-39,"$75,000 - $100,000","$3,000 - $4,000",Yes,No,Yes,$50 - $100,iOS,6 - 10 hours
+3 - Somewhat likely,,Male,40+,"$25,000 - $50,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,6 - 10 hours
+,3 - Somewhat likely,Male,25-29,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,$100 - $150,Android,6 - 10 hours
+,5 - I will surely take the plan,Female,25-29,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+1 - Probably not,,Female,25-29,"$25,000 - $50,000","$2,000 - $3,000",No,,Yes,$100 - $150,iOS,6 - 10 hours
+,4 - Highly likely,Male,30-39,"$50,000 - $75,000","$0 - $1,000",Yes,No,Yes,$100 - $150,Android,0 - 3 hours
+2 - Somewhat not likely,,Male,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,iOS,3 - 6 hours
+,1 - Probably not,Male,18-24,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,0 - 3 hours
+5 - I will surely take the plan,,Male,30-39,"$75,000 - $100,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,6 - 10 hours
+,5 - I will surely take the plan,Female,30-39,"$50,000 - $75,000","$2,000 - $3,000",No,,Yes,$50 - $100,Android,6 - 10 hours
+,2 - Somewhat not likely,Female,40+,"$25,000 - $50,000","$3,000 - $4,000",Yes,No,Yes,0 - $50,iOS,3 - 6 hours
+5 - I will surely take the plan,,Female,40+,"$25,000 - $50,000","$3,000 - $4,000",Yes,No,No,,Android,10 - 15 hours
+,3 - Somewhat likely,Male,30-39,">$100,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,6 - 10 hours
+,5 - I will surely take the plan,Female,18-24,"$25,000 - $50,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+,5 - I will surely take the plan,Male,30-39,"$50,000 - $75,000","$0 - $1,000",Yes,No,Yes,$50 - $100,iOS,3 - 6 hours
+,5 - I will surely take the plan,Female,40+,"$25,000 - $50,000","$0 - $1,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+,4 - Highly likely,Male,40+,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+5 - I will surely take the plan,,Male,25-29,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,>$200,iOS,3 - 6 hours
+4 - Highly likely,,Female,25-29,"$0 - $25,000","$3,000 - $4,000",Yes,No,Yes,$150 - $200,iOS,0 - 3 hours
+2 - Somewhat not likely,,Male,25-29,"$0 - $25,000","$0 - $1,000",Yes,Yes,No,,Android,3 - 6 hours
+,4 - Highly likely,Female,40+,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+,4 - Highly likely,Female,18-24,"$25,000 - $50,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+,3 - Somewhat likely,Female,30-39,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+3 - Somewhat likely,,Female,30-39,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,1 - Probably not,Female,30-39,"$50,000 - $75,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+2 - Somewhat not likely,,Female,25-29,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,3 - 6 hours
+1 - Probably not,,Female,30-39,"$50,000 - $75,000","$0 - $1,000",Yes,No,Yes,$50 - $100,iOS,0 - 3 hours
+,3 - Somewhat likely,Male,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,3 - 6 hours
+3 - Somewhat likely,,Female,40+,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,3 - Somewhat likely,Male,18-24,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,1 - Probably not,Male,30-39,"$0 - $25,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,3 - 6 hours
+,4 - Highly likely,Female,25-29,"$50,000 - $75,000","$2,000 - $3,000",No,,No,,iOS,6 - 10 hours
+,3 - Somewhat likely,Female,40+,"$25,000 - $50,000","$0 - $1,000",Yes,Yes,Yes,0 - $50,iOS,3 - 6 hours
+2 - Somewhat not likely,,Female,30-39,"$50,000 - $75,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,3 - 6 hours
+,4 - Highly likely,Female,30-39,"$50,000 - $75,000","$3,000 - $4,000",Yes,Yes,Yes,$150 - $200,Android,0 - 3 hours
+,3 - Somewhat likely,Male,30-39,"$75,000 - $100,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,iOS,6 - 10 hours
+3 - Somewhat likely,,Male,25-29,"$0 - $25,000","$0 - $1,000",Yes,Yes,No,,iOS,0 - 3 hours
+3 - Somewhat likely,,Male,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,3 - 6 hours
+,3 - Somewhat likely,Male,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+,0 - Not likely at all,Female,30-39,"$25,000 - $50,000","$0 - $1,000",Yes,No,No,,iOS,0 - 3 hours
+1 - Probably not,,Male,30-39,"$25,000 - $50,000","$0 - $1,000",Yes,No,No,,Android,> 15 hours
+,5 - I will surely take the plan,Male,25-29,"$50,000 - $75,000","$2,000 - $3,000",Yes,No,Yes,$100 - $150,Android,3 - 6 hours
+,4 - Highly likely,Female,30-39,"$25,000 - $50,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,1 - Probably not,Male,40+,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+4 - Highly likely,,Female,40+,">$100,000","$2,000 - $3,000",Yes,No,Yes,>$200,Android,0 - 3 hours
+,3 - Somewhat likely,Male,40+,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,0 - Not likely at all,Female,40+,"$50,000 - $75,000","$0 - $1,000",Yes,,No,,Android,0 - 3 hours
+,4 - Highly likely,Male,40+,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+1 - Probably not,,Prefer not to say,25-29,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+1 - Probably not,,Prefer not to say,30-39,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+4 - Highly likely,,Female,30-39,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,3 - 6 hours
+0 - Not likely at all,,Female,40+,"$0 - $25,000","$1,000 - $2,000",No,,Yes,0 - $50,Android,0 - 3 hours
+,5 - I will surely take the plan,Female,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,,Yes,0 - $50,Android,0 - 3 hours
+,4 - Highly likely,Male,30-39,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,No,,Android,0 - 3 hours
+,0 - Not likely at all,Male,40+,"$75,000 - $100,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+4 - Highly likely,,Female,25-29,"$25,000 - $50,000","$2,000 - $3,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+,3 - Somewhat likely,Male,25-29,"$50,000 - $75,000","$3,000 - $4,000",Yes,No,Yes,$150 - $200,Android,6 - 10 hours
+3 - Somewhat likely,,Male,40+,"$25,000 - $50,000","$3,000 - $4,000",Yes,Yes,No,,Android,6 - 10 hours
+,4 - Highly likely,Female,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+,4 - Highly likely,Female,18-24,"$25,000 - $50,000","$3,000 - $4,000",No,,Yes,$50 - $100,iOS,0 - 3 hours
+5 - I will surely take the plan,,Male,30-39,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+3 - Somewhat likely,,Female,40+,"$25,000 - $50,000","$1,000 - $2,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+,4 - Highly likely,Male,30-39,">$100,000",">$4,000",Yes,No,Yes,0 - $50,Android,3 - 6 hours
+3 - Somewhat likely,,Male,30-39,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,$100 - $150,Android,0 - 3 hours
+,3 - Somewhat likely,Female,40+,"$50,000 - $75,000","$3,000 - $4,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,5 - I will surely take the plan,Male,40+,">$100,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,0 - 3 hours
+0 - Not likely at all,,Female,30-39,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+,0 - Not likely at all,Male,25-29,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,No,,iOS,0 - 3 hours
+1 - Probably not,,Female,18-24,"$50,000 - $75,000","$2,000 - $3,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+,0 - Not likely at all,Male,30-39,"$25,000 - $50,000","$2,000 - $3,000",No,,Yes,0 - $50,Android,0 - 3 hours
+1 - Probably not,,Male,30-39,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+,3 - Somewhat likely,Female,30-39,"$75,000 - $100,000","$3,000 - $4,000",Yes,No,No,,Android,6 - 10 hours
+1 - Probably not,,Male,30-39,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+3 - Somewhat likely,,Female,25-29,"$0 - $25,000","$1,000 - $2,000",No,,Yes,$50 - $100,Android,0 - 3 hours
+,4 - Highly likely,Female,25-29,"$0 - $25,000","$1,000 - $2,000",No,,Yes,$50 - $100,Android,0 - 3 hours
+,2 - Somewhat not likely,Male,18-24,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,No,,Android,0 - 3 hours
+,4 - Highly likely,Male,40+,">$100,000",">$4,000",Yes,No,Yes,$50 - $100,Android,0 - 3 hours
+2 - Somewhat not likely,,Female,25-29,"$50,000 - $75,000","$1,000 - $2,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+,5 - I will surely take the plan,Male,25-29,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,3 - 6 hours
+,4 - Highly likely,Male,40+,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,Android,0 - 3 hours
+1 - Probably not,,Female,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,No,,iOS,0 - 3 hours
+,4 - Highly likely,Male,30-39,">$100,000",">$4,000",Yes,Yes,Yes,>$200,Android,0 - 3 hours
+,4 - Highly likely,Male,40+,"$50,000 - $75,000","$1,000 - $2,000",Yes,Yes,Yes,$100 - $150,Android,6 - 10 hours
+5 - I will surely take the plan,,Female,18-24,"$75,000 - $100,000","$3,000 - $4,000",Yes,Yes,Yes,$100 - $150,Android,3 - 6 hours
+,1 - Probably not,Female,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+0 - Not likely at all,,Female,40+,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,No,,Android,0 - 3 hours
+5 - I will surely take the plan,,Male,40+,">$100,000","$2,000 - $3,000",No,,Yes,0 - $50,Android,10 - 15 hours
+,1 - Probably not,Male,30-39,"$25,000 - $50,000","$1,000 - $2,000",No,,Yes,0 - $50,Android,0 - 3 hours
+2 - Somewhat not likely,,Female,30-39,"$0 - $25,000","$0 - $1,000",No,,No,,Android,3 - 6 hours
+5 - I will surely take the plan,,Female,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,No,,Android,6 - 10 hours
+,5 - I will surely take the plan,Female,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,No,,Android,6 - 10 hours
+,5 - I will surely take the plan,Female,18-24,"$25,000 - $50,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+2 - Somewhat not likely,,Non-binary / third gender,30-39,"$50,000 - $75,000","$0 - $1,000",Yes,Yes,Yes,$50 - $100,iOS,0 - 3 hours
+,2 - Somewhat not likely,Female,40+,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+2 - Somewhat not likely,,Female,30-39,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$100 - $150,Android,0 - 3 hours
+3 - Somewhat likely,,Female,30-39,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,No,,Android,3 - 6 hours
+,5 - I will surely take the plan,Female,40+,"$0 - $25,000","$0 - $1,000",No,,No,,Android,0 - 3 hours
+,3 - Somewhat likely,Female,30-39,"$25,000 - $50,000","$3,000 - $4,000",Yes,No,Yes,$50 - $100,Android,10 - 15 hours
+3 - Somewhat likely,,Female,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,3 - 6 hours
+,4 - Highly likely,Female,30-39,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+5 - I will surely take the plan,,Male,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+,3 - Somewhat likely,Female,18-24,"$0 - $25,000","$1,000 - $2,000",No,,Yes,$100 - $150,iOS,3 - 6 hours
+5 - I will surely take the plan,,Male,18-24,">$100,000","$2,000 - $3,000",No,,Yes,$100 - $150,Android,6 - 10 hours
+3 - Somewhat likely,,Male,30-39,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+1 - Probably not,,Male,30-39,"$25,000 - $50,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,1 - Probably not,Male,30-39,"$25,000 - $50,000","$2,000 - $3,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+2 - Somewhat not likely,,Male,30-39,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+2 - Somewhat not likely,,Female,30-39,">$100,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+,5 - I will surely take the plan,Male,40+,">$100,000","$3,000 - $4,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+4 - Highly likely,,Male,18-24,"$50,000 - $75,000","$3,000 - $4,000",Yes,No,Yes,$150 - $200,iOS,0 - 3 hours
+2 - Somewhat not likely,,Male,40+,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+5 - I will surely take the plan,,Male,30-39,">$100,000","$2,000 - $3,000",Yes,No,Yes,>$200,iOS,3 - 6 hours
+,3 - Somewhat likely,Male,30-39,"$0 - $25,000","$1,000 - $2,000",No,,Yes,0 - $50,Android,0 - 3 hours
+3 - Somewhat likely,,Male,30-39,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,$50 - $100,Android,6 - 10 hours
+3 - Somewhat likely,,Female,40+,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,No,,Android,0 - 3 hours
+1 - Probably not,,Male,40+,"$75,000 - $100,000","$2,000 - $3,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+3 - Somewhat likely,,Female,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,3 - 6 hours
+,2 - Somewhat not likely,Male,40+,"$25,000 - $50,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+0 - Not likely at all,,Female,30-39,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,$150 - $200,Android,> 15 hours
+0 - Not likely at all,,Female,30-39,"$75,000 - $100,000",">$4,000",Yes,Yes,Yes,$150 - $200,Android,6 - 10 hours
+3 - Somewhat likely,,Male,40+,"$0 - $25,000","$1,000 - $2,000",Yes,Yes,Yes,0 - $50,iOS,3 - 6 hours
+4 - Highly likely,,Male,25-29,"$75,000 - $100,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,iOS,6 - 10 hours
+,4 - Highly likely,Male,40+,"$0 - $25,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,10 - 15 hours
+1 - Probably not,,Female,30-39,"$25,000 - $50,000","$1,000 - $2,000",No,,Yes,$50 - $100,Android,3 - 6 hours
+2 - Somewhat not likely,,Female,30-39,"$25,000 - $50,000","$1,000 - $2,000",No,,Yes,$50 - $100,Android,3 - 6 hours
+,3 - Somewhat likely,Male,40+,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,0 - $50,Android,0 - 3 hours
+,5 - I will surely take the plan,Female,30-39,">$100,000","$2,000 - $3,000",Yes,No,Yes,$100 - $150,iOS,0 - 3 hours
+,1 - Probably not,Female,18-24,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,iOS,3 - 6 hours
+,3 - Somewhat likely,Female,40+,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,2 - Somewhat not likely,Female,18-24,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,0 - 3 hours
+4 - Highly likely,,Female,40+,"$50,000 - $75,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,iOS,0 - 3 hours
+,4 - Highly likely,Female,30-39,"$50,000 - $75,000","$2,000 - $3,000",Yes,No,No,,Android,0 - 3 hours
+4 - Highly likely,,Male,40+,"$75,000 - $100,000","$3,000 - $4,000",Yes,Yes,Yes,$50 - $100,iOS,0 - 3 hours
+3 - Somewhat likely,,Male,40+,">$100,000","$2,000 - $3,000",Yes,Yes,Yes,$50 - $100,iOS,6 - 10 hours
+3 - Somewhat likely,,Male,30-39,">$100,000","$2,000 - $3,000",Yes,,Yes,$50 - $100,iOS,0 - 3 hours
+,4 - Highly likely,Female,40+,">$100,000",">$4,000",Yes,Yes,Yes,$150 - $200,iOS,6 - 10 hours
+,5 - I will surely take the plan,Male,18-24,"$25,000 - $50,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,6 - 10 hours
+4 - Highly likely,,Male,40+,"$75,000 - $100,000","$2,000 - $3,000",Yes,Yes,Yes,$50 - $100,iOS,6 - 10 hours
+,5 - I will surely take the plan,Male,40+,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,0 - Not likely at all,Male,40+,"$0 - $25,000","$0 - $1,000",No,,No,,Android,0 - 3 hours
+,5 - I will surely take the plan,Female,40+,">$100,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,3 - Somewhat likely,Male,30-39,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+3 - Somewhat likely,,Female,30-39,"$25,000 - $50,000","$2,000 - $3,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,5 - I will surely take the plan,Male,40+,"$25,000 - $50,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,4 - Highly likely,Male,30-39,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,$50 - $100,iOS,0 - 3 hours
+,5 - I will surely take the plan,Male,30-39,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,Android,0 - 3 hours
+2 - Somewhat not likely,,Female,18-24,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+2 - Somewhat not likely,,Male,30-39,"$25,000 - $50,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,4 - Highly likely,Male,40+,"$0 - $25,000","$0 - $1,000",Yes,Yes,No,,Android,3 - 6 hours
+4 - Highly likely,,Female,30-39,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,No,,Android,6 - 10 hours
+5 - I will surely take the plan,,Male,30-39,"$25,000 - $50,000","$1,000 - $2,000",Yes,,Yes,$100 - $150,Android,0 - 3 hours
+,4 - Highly likely,Female,25-29,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,$50 - $100,iOS,0 - 3 hours
+1 - Probably not,,Male,18-24,"$0 - $25,000","$0 - $1,000",Yes,,Yes,0 - $50,iOS,0 - 3 hours
+,5 - I will surely take the plan,Male,18-24,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,No,,Android,3 - 6 hours
+,4 - Highly likely,Male,30-39,"$25,000 - $50,000","$0 - $1,000",Yes,Yes,No,,Android,0 - 3 hours
+3 - Somewhat likely,,Male,40+,"$75,000 - $100,000","$2,000 - $3,000",Yes,Yes,Yes,$150 - $200,iOS,10 - 15 hours
+,3 - Somewhat likely,Male,25-29,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,$50 - $100,Android,0 - 3 hours
+,3 - Somewhat likely,Male,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,3 - 6 hours
+,3 - Somewhat likely,Male,30-39,"$50,000 - $75,000","$2,000 - $3,000",Yes,No,Yes,0 - $50,Android,3 - 6 hours
+4 - Highly likely,,Female,30-39,">$100,000","$2,000 - $3,000",Yes,No,Yes,0 - $50,iOS,6 - 10 hours
+,5 - I will surely take the plan,Male,30-39,"$25,000 - $50,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+5 - I will surely take the plan,,Male,30-39,"$25,000 - $50,000","$1,000 - $2,000",No,,Yes,$100 - $150,iOS,0 - 3 hours
+4 - Highly likely,,Female,25-29,"$50,000 - $75,000","$2,000 - $3,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+4 - Highly likely,,Male,30-39,"$75,000 - $100,000","$2,000 - $3,000",Yes,Yes,Yes,$150 - $200,Android,3 - 6 hours
+2 - Somewhat not likely,,Male,25-29,"$25,000 - $50,000","$0 - $1,000",Yes,Yes,Yes,0 - $50,Android,0 - 3 hours
+,4 - Highly likely,Female,25-29,"$75,000 - $100,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,Android,0 - 3 hours
+,2 - Somewhat not likely,Female,40+,">$100,000",">$4,000",Yes,No,Yes,>$200,Android,0 - 3 hours
+2 - Somewhat not likely,,Female,40+,">$100,000",">$4,000",Yes,No,Yes,>$200,Android,0 - 3 hours
+,3 - Somewhat likely,Male,30-39,"$0 - $25,000","$0 - $1,000",Yes,,No,,Android,0 - 3 hours
+,5 - I will surely take the plan,Male,30-39,">$100,000","$2,000 - $3,000",Yes,No,Yes,$100 - $150,Android,0 - 3 hours
+4 - Highly likely,,Male,40+,"$50,000 - $75,000","$3,000 - $4,000",Yes,Yes,Yes,$50 - $100,Android,0 - 3 hours
+,3 - Somewhat likely,Male,40+,"$50,000 - $75,000","$3,000 - $4,000",Yes,No,No,,Android,0 - 3 hours
+,5 - I will surely take the plan,Male,40+,"$50,000 - $75,000","$2,000 - $3,000",Yes,No,No,,Android,0 - 3 hours
+2 - Somewhat not likely,,Female,30-39,"$75,000 - $100,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+3 - Somewhat likely,,Female,40+,"$50,000 - $75,000","$3,000 - $4,000",No,,Yes,$50 - $100,iOS,0 - 3 hours
+2 - Somewhat not likely,,Male,18-24,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,iOS,3 - 6 hours
+5 - I will surely take the plan,,Male,30-39,"$75,000 - $100,000","$3,000 - $4,000",Yes,Yes,Yes,$100 - $150,Android,6 - 10 hours
+4 - Highly likely,,Male,30-39,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,iOS,> 15 hours
+3 - Somewhat likely,,Male,40+,"$25,000 - $50,000","$1,000 - $2,000",No,,Yes,0 - $50,Android,0 - 3 hours
+,3 - Somewhat likely,Male,25-29,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+,5 - I will surely take the plan,Male,30-39,"$0 - $25,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,iOS,3 - 6 hours
+,2 - Somewhat not likely,Male,25-29,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+3 - Somewhat likely,,Male,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$100 - $150,Android,0 - 3 hours
+,5 - I will surely take the plan,Male,40+,">$100,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,iOS,0 - 3 hours
+3 - Somewhat likely,,Male,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,iOS,0 - 3 hours
+,4 - Highly likely,Female,18-24,"$50,000 - $75,000","$0 - $1,000",No,,Yes,0 - $50,Android,> 15 hours
+3 - Somewhat likely,,Male,30-39,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+,4 - Highly likely,Male,40+,">$100,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,10 - 15 hours
+3 - Somewhat likely,,Female,30-39,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,3 - 6 hours
+4 - Highly likely,,Male,40+,">$100,000","$3,000 - $4,000",Yes,Yes,Yes,$100 - $150,Android,3 - 6 hours
+2 - Somewhat not likely,,Female,30-39,"$25,000 - $50,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,iOS,6 - 10 hours
+1 - Probably not,,Female,30-39,"$0 - $25,000","$0 - $1,000",Yes,No,No,,Android,0 - 3 hours
+,1 - Probably not,Female,30-39,"$25,000 - $50,000","$1,000 - $2,000",No,,Yes,$100 - $150,iOS,6 - 10 hours
+,3 - Somewhat likely,Male,18-24,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,iOS,6 - 10 hours
+4 - Highly likely,,Female,30-39,"$0 - $25,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+,5 - I will surely take the plan,Male,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
+,4 - Highly likely,Female,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$100 - $150,Android,6 - 10 hours
+4 - Highly likely,,Female,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$100 - $150,Android,0 - 3 hours
+4 - Highly likely,,Female,18-24,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+3 - Somewhat likely,,Female,40+,"$50,000 - $75,000","$3,000 - $4,000",Yes,Yes,No,,Android,10 - 15 hours
+2 - Somewhat not likely,,Male,18-24,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+,4 - Highly likely,Male,30-39,"$75,000 - $100,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,iOS,0 - 3 hours
+4 - Highly likely,,Female,40+,"$75,000 - $100,000","$3,000 - $4,000",Yes,No,Yes,$150 - $200,iOS,0 - 3 hours
+4 - Highly likely,,Male,30-39,"$0 - $25,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+4 - Highly likely,,Male,40+,"$0 - $25,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+4 - Highly likely,,Male,30-39,"$75,000 - $100,000","$3,000 - $4,000",Yes,Yes,Yes,$100 - $150,iOS,6 - 10 hours
+2 - Somewhat not likely,,Female,18-24,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,No,,Android,0 - 3 hours
+,4 - Highly likely,Male,25-29,"$75,000 - $100,000","$2,000 - $3,000",No,,No,,Android,3 - 6 hours
+,4 - Highly likely,Male,25-29,"$75,000 - $100,000","$1,000 - $2,000",No,,No,,Android,3 - 6 hours
+4 - Highly likely,,Male,25-29,"$75,000 - $100,000","$2,000 - $3,000",No,,No,,Android,0 - 3 hours
+,3 - Somewhat likely,Male,30-39,"$0 - $25,000","$0 - $1,000",Yes,Yes,No,,Android,3 - 6 hours
+3 - Somewhat likely,,Male,30-39,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,6 - 10 hours
+,2 - Somewhat not likely,Female,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,$50 - $100,iOS,0 - 3 hours
+3 - Somewhat likely,,Female,30-39,"$0 - $25,000","$0 - $1,000",Yes,No,No,,Android,0 - 3 hours
+,5 - I will surely take the plan,Male,30-39,"$50,000 - $75,000","$3,000 - $4,000",Yes,Yes,Yes,$100 - $150,iOS,6 - 10 hours
+2 - Somewhat not likely,,Male,30-39,"$0 - $25,000","$1,000 - $2,000",Yes,No,No,,Android,0 - 3 hours
+,4 - Highly likely,Female,25-29,">$100,000",">$4,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+4 - Highly likely,,Female,30-39,"$75,000 - $100,000",">$4,000",Yes,Yes,Yes,$50 - $100,Android,6 - 10 hours
+4 - Highly likely,,Female,40+,"$0 - $25,000","$1,000 - $2,000",Yes,Yes,No,,Android,3 - 6 hours
+5 - I will surely take the plan,,Male,30-39,"$0 - $25,000","$0 - $1,000",Yes,No,No,,Android,6 - 10 hours
+5 - I will surely take the plan,,Female,40+,"$75,000 - $100,000",">$4,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+4 - Highly likely,,Male,30-39,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,10 - 15 hours
+5 - I will surely take the plan,,Male,30-39,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,No,,Android,0 - 3 hours
+3 - Somewhat likely,,Male,25-29,"$75,000 - $100,000","$3,000 - $4,000",Yes,Yes,Yes,$100 - $150,iOS,3 - 6 hours
+,3 - Somewhat likely,Male,30-39,"$0 - $25,000","$2,000 - $3,000",Yes,No,Yes,$50 - $100,Android,0 - 3 hours
+3 - Somewhat likely,,Female,30-39,"$0 - $25,000","$1,000 - $2,000",Yes,No,No,,Android,0 - 3 hours
+,3 - Somewhat likely,Male,25-29,"$75,000 - $100,000","$3,000 - $4,000",No,,No,,Android,0 - 3 hours
+,4 - Highly likely,Male,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+,1 - Probably not,Female,30-39,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+4 - Highly likely,,Female,25-29,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+,4 - Highly likely,Female,40+,"$0 - $25,000","$0 - $1,000",No,,Yes,$50 - $100,Android,3 - 6 hours
+,4 - Highly likely,Female,18-24,"$50,000 - $75,000","$2,000 - $3,000",Yes,No,Yes,$100 - $150,Android,3 - 6 hours
+,5 - I will surely take the plan,Male,30-39,"$50,000 - $75,000","$1,000 - $2,000",No,,No,,Android,0 - 3 hours
+3 - Somewhat likely,,Male,40+,"$0 - $25,000","$1,000 - $2,000",Yes,Yes,Yes,0 - $50,iOS,0 - 3 hours
+,4 - Highly likely,Male,40+,"$0 - $25,000","$0 - $1,000",Yes,Yes,Yes,0 - $50,iOS,0 - 3 hours
+,5 - I will surely take the plan,Male,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,0 - 3 hours
+4 - Highly likely,,Male,40+,"$0 - $25,000","$0 - $1,000",Yes,Yes,Yes,0 - $50,iOS,0 - 3 hours
+,5 - I will surely take the plan,Female,40+,"$50,000 - $75,000","$2,000 - $3,000",Yes,No,Yes,0 - $50,iOS,6 - 10 hours
+3 - Somewhat likely,,Female,18-24,"$25,000 - $50,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+4 - Highly likely,,Female,40+,"$0 - $25,000",">$4,000",No,,Yes,0 - $50,Android,0 - 3 hours
+,4 - Highly likely,Male,30-39,"$50,000 - $75,000","$2,000 - $3,000",Yes,No,Yes,$100 - $150,Android,3 - 6 hours
+,4 - Highly likely,Male,30-39,"$50,000 - $75,000","$2,000 - $3,000",Yes,No,Yes,$150 - $200,Android,10 - 15 hours
+3 - Somewhat likely,,Female,40+,"$25,000 - $50,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+,4 - Highly likely,Female,40+,"$0 - $25,000","$0 - $1,000",Yes,Yes,Yes,0 - $50,Android,0 - 3 hours
+,3 - Somewhat likely,Male,40+,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,No,,Android,6 - 10 hours
+,3 - Somewhat likely,Male,40+,"$50,000 - $75,000","$1,000 - $2,000",Yes,Yes,Yes,$100 - $150,iOS,3 - 6 hours
+,1 - Probably not,Male,40+,"$75,000 - $100,000","$1,000 - $2,000",Yes,Yes,No,,iOS,6 - 10 hours
+,5 - I will surely take the plan,Male,40+,"$50,000 - $75,000","$1,000 - $2,000",Yes,No,No,,Android,0 - 3 hours
+,1 - Probably not,Male,40+,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,$50 - $100,Android,0 - 3 hours
+4 - Highly likely,,Male,40+,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,No,,Android,0 - 3 hours
+,1 - Probably not,Male,25-29,"$50,000 - $75,000","$1,000 - $2,000",Yes,Yes,Yes,$100 - $150,Android,3 - 6 hours
+3 - Somewhat likely,,Female,30-39,"$50,000 - $75,000","$1,000 - $2,000",Yes,Yes,Yes,$100 - $150,Android,3 - 6 hours
+1 - Probably not,,Female,40+,"$25,000 - $50,000","$2,000 - $3,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+,3 - Somewhat likely,Male,30-39,"$75,000 - $100,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,6 - 10 hours
+,4 - Highly likely,Male,30-39,"$75,000 - $100,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,6 - 10 hours
+4 - Highly likely,,Male,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,4 - Highly likely,Male,40+,"$0 - $25,000","$0 - $1,000",No,,No,,Android,10 - 15 hours
+,2 - Somewhat not likely,Female,40+,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,6 - 10 hours
+3 - Somewhat likely,,Male,18-24,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,iOS,3 - 6 hours
+3 - Somewhat likely,,Female,40+,"$25,000 - $50,000","$1,000 - $2,000",No,,Yes,$100 - $150,Android,10 - 15 hours
+,4 - Highly likely,Male,30-39,"$0 - $25,000","$0 - $1,000",No,,Yes,$100 - $150,Android,10 - 15 hours
+,3 - Somewhat likely,Male,30-39,"$0 - $25,000","$0 - $1,000",Yes,Yes,Yes,0 - $50,Android,0 - 3 hours
+,3 - Somewhat likely,Male,25-29,"$75,000 - $100,000","$2,000 - $3,000",Yes,No,Yes,0 - $50,Android,3 - 6 hours
+4 - Highly likely,,Female,40+,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,iOS,6 - 10 hours
+,4 - Highly likely,Female,30-39,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,6 - 10 hours
+,4 - Highly likely,Male,25-29,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,6 - 10 hours
+,4 - Highly likely,Male,30-39,"$25,000 - $50,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+,4 - Highly likely,Male,25-29,"$0 - $25,000","$0 - $1,000",Yes,No,Yes,0 - $50,Android,0 - 3 hours
+3 - Somewhat likely,,Female,40+,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,3 - 6 hours
+,3 - Somewhat likely,Female,40+,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,6 - 10 hours
+3 - Somewhat likely,,Male,30-39,"$75,000 - $100,000","$0 - $1,000",Yes,No,No,,Android,3 - 6 hours
+5 - I will surely take the plan,,Male,30-39,">$100,000",">$4,000",Yes,No,Yes,0 - $50,iOS,10 - 15 hours
+,5 - I will surely take the plan,Female,18-24,"$0 - $25,000","$1,000 - $2,000",No,,Yes,$50 - $100,Android,0 - 3 hours
+,3 - Somewhat likely,Female,30-39,"$50,000 - $75,000","$3,000 - $4,000",Yes,Yes,Yes,$50 - $100,iOS,3 - 6 hours
+,2 - Somewhat not likely,Male,18-24,"$0 - $25,000","$0 - $1,000",Yes,Yes,No,,Android,3 - 6 hours
+,5 - I will surely take the plan,Male,25-29,"$25,000 - $50,000","$1,000 - $2,000",Yes,Yes,No,,Android,3 - 6 hours
+,3 - Somewhat likely,Female,18-24,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,iOS,0 - 3 hours
+,4 - Highly likely,Female,30-39,"$25,000 - $50,000","$2,000 - $3,000",Yes,No,Yes,0 - $50,Android,6 - 10 hours
+,4 - Highly likely,Female,25-29,"$75,000 - $100,000","$2,000 - $3,000",Yes,No,Yes,>$200,iOS,0 - 3 hours
+1 - Probably not,,Male,40+,"$75,000 - $100,000","$1,000 - $2,000",Yes,No,Yes,0 - $50,iOS,0 - 3 hours
+,3 - Somewhat likely,Male,25-29,"$50,000 - $75,000","$2,000 - $3,000",No,,Yes,$50 - $100,iOS,3 - 6 hours
+,4 - Highly likely,Male,25-29,"$50,000 - $75,000","$2,000 - $3,000",Yes,Yes,Yes,$50 - $100,iOS,0 - 3 hours
+4 - Highly likely,,Male,40+,"$25,000 - $50,000","$3,000 - $4,000",Yes,Yes,Yes,$150 - $200,Android,0 - 3 hours
+,4 - Highly likely,Male,40+,"$75,000 - $100,000","$3,000 - $4,000",Yes,Yes,Yes,$100 - $150,Android,> 15 hours
+4 - Highly likely,,Male,40+,"$75,000 - $100,000","$2,000 - $3,000",Yes,Yes,Yes,$100 - $150,Android,6 - 10 hours
+,4 - Highly likely,Male,30-39,"$75,000 - $100,000","$0 - $1,000",Yes,Yes,Yes,>$200,iOS,> 15 hours
+3 - Somewhat likely,,Male,40+,"$50,000 - $75,000",">$4,000",No,,Yes,>$200,Android,3 - 6 hours
+,3 - Somewhat likely,Male,40+,"$50,000 - $75,000","$1,000 - $2,000",Yes,Yes,Yes,$50 - $100,Android,0 - 3 hours
+,4 - Highly likely,Male,40+,"$50,000 - $75,000","$0 - $1,000",Yes,Yes,No,,iOS,3 - 6 hours
+,3 - Somewhat likely,Male,40+,"$50,000 - $75,000","$2,000 - $3,000",No,,Yes,0 - $50,iOS,3 - 6 hours
+2 - Somewhat not likely,,Female,40+,"$0 - $25,000","$0 - $1,000",Yes,No,No,,Android,0 - 3 hours
+1 - Probably not,,Male,30-39,"$0 - $25,000","$0 - $1,000",Yes,No,No,,Android,0 - 3 hours
+,3 - Somewhat likely,Female,30-39,"$0 - $25,000","$0 - $1,000",No,,Yes,0 - $50,Android,0 - 3 hours
