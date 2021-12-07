@@ -389,6 +389,7 @@ stargazer(he_prof, he_streaming,
           omit = c()
 )
 ```
+This table shows the heterogeneous effect of covariate 'profworker' (whether they are professional workers) and the heterogeneous effect of covariate 'streamingService' (Whether they have streaming service). We could find that the two heterogeneous effect are both not statistically significant, which indicates that the treatment affect sub-groups similarly, in other words, this heterogeneous effect is similar across different sub-groups. 
 
 ```{r}
 stargazer(he_os, he_wifi,
@@ -399,7 +400,7 @@ stargazer(he_os, he_wifi,
 )
 ```
 
-commit some changes here...
+This table shows the heterogeneous effect of covariate 'phoneOS' (cellphone operating system type) and the heterogeneous effect of covariate 'noWifiHrs' (the number of hours without wifi access). We could find that the heterogeneous effect of 'phoneOS' is not statistically significant, which indicates that the treatment affect sub-groups(people who use IOS, people who use Android) similarly, in other words, this heterogeneous effect is similar across different sub-groups of variable 'phoneOS'. However, for the heterogeneous effect of sub-groups in variable 'nowifiHrs', we could discover that this effect is different for people who have no access to WIFI for 10-15 hours. This makes sense, since people tend to buy premium (unlimited cellular data) when they have little access to WIFI. 
 
 ## 5. Results
 
