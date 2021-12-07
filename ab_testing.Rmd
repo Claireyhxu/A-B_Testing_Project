@@ -22,14 +22,16 @@ output: pdf_document
 # Load libraries
 library(data.table)
 library(stargazer)
+library(pwr)
+library(plm)
 library(dplyr)
 library(ggplot2)
 library(egg)
+library(car)
 
 # Clear workspace
-rm(list=ls())
-
-theme_set(theme_article())
+# rm(list=ls())
+# theme_set(theme_article())
 ```
 
 ```{r include=FALSE}
@@ -59,27 +61,36 @@ surveyData = surveyData %>%
 
 # Converting columns to factor
 surveyData$gender = factor(surveyData$gender)
-surveyData$age = factor(surveyData$age, ordered = TRUE,
+surveyData$age = factor(surveyData$age, 
                         levels = c("18-24","25-29","30-39","40+"))
-surveyData$income = factor(surveyData$income, ordered = TRUE,
+surveyData$income = factor(surveyData$income,
                            levels = c("$0 - $25,000", "$25,000 - $50,000", "$50,000 - $75,000",
                               "$75,000 - $100,000", ">$100,000"))
-surveyData$monthExpense = factor(surveyData$monthExpense, ordered = TRUE,
+surveyData$monthExpense = factor(surveyData$monthExpense,
                                  levels = c("$0 - $1,000", "$1,000 - $2,000", "$2,000 - $3,000",
                                     "$3,000 - $4,000", ">$4,000"))
 surveyData$profWorker = factor(surveyData$profWorker)
 surveyData$employerBill = factor(surveyData$employerBill)
 surveyData$streamingService = factor(surveyData$streamingService)
-surveyData$streamingPayment = factor(surveyData$streamingPayment, ordered = TRUE,
+surveyData$streamingPayment = factor(surveyData$streamingPayment,
                                      levels = c("", "$100 - $150", "$150 - $200", "$50 - $100", "0 - $50",
                                         ">$200"))
 surveyData$phoneOS = factor(surveyData$phoneOS)
-surveyData$noWifiHrs = factor(surveyData$noWifiHrs, ordered = TRUE,
+surveyData$noWifiHrs = factor(surveyData$noWifiHrs,
                               levels = c("0 - 3 hours", "3 - 6 hours", "6 - 10 hours", "10 - 15 hours", "> 15 hours"))
 surveyData$treatment = factor(surveyData$treatment)
-surveyData$response = factor(surveyData$response, ordered = TRUE,
+surveyData$response = factor(surveyData$response,
                             levels = c("0 - Not likely at all", "1 - Probably not", "2 - Somewhat not likely",
                                        "3 - Somewhat likely", "4 - Highly likely", "5 - I will surely take the plan"))
+
+# Convert response variable to numeric
+surveyData <- surveyData %>%
+  mutate(response_numeric = ifelse(response == "5 - I will surely take the plan",5, 
+                                   ifelse(response == "4 - Highly likely", 4, 
+                                          ifelse(response == "3 - Somewhat likely", 3, 
+                                                 ifelse(response == "2 - Somewhat not likely", 2, 
+                                                        ifelse(response == "1 - Probably not", 1, 
+                                                               ifelse(response == "0 - Not likely at all", 0, NA)))))))
 ```
 
 ## 1. Executive Summary
@@ -202,7 +213,7 @@ ggplot(surveyData, aes(x = age, group = 1)) +
 ```
 
 
-```{r, include=FALSE}
+```{r}
 # Income
 ggplot(surveyData, aes(x = income, group = 1)) +
    geom_bar(aes(y = ..prop..), stat = 'count', fill = "lightblue") +
@@ -239,7 +250,7 @@ ggplot(surveyData, aes(x = profWorker, group = 1)) +
 ```
 
 
-```{r, include=FALSE}
+```{r}
 # Streaming Service Subscribers
 ggplot(surveyData, aes(x = streamingService, group = 1)) +
    geom_bar(aes(y = ..prop..), stat = 'count', fill = "lightblue") +
@@ -278,15 +289,7 @@ ggplot(surveyData, aes(x = noWifiHrs, group = 1)) +
 surveyData
 ```
 
-```{r}
-surveyData <- surveyData %>%
-  mutate(response_numeric = ifelse(response == "5 - I will surely take the plan",5, 
-                                   ifelse(response == "4 - Highly likely", 4, 
-                                          ifelse(response == "3 - Somewhat likely", 3, 
-                                                 ifelse(response == "2 - Somewhat not likely", 2, 
-                                                        ifelse(response == "1 - Probably not", 1, 
-                                                               ifelse(response == "0 - Not likely at all", 0, NA)))))))
-```
+
 
 ```{r}
 t.test(surveyData$response_numeric ~ surveyData$treatment)
@@ -296,7 +299,9 @@ t.test(surveyData$response_numeric ~ surveyData$treatment)
 surveyData %>%
   ggplot(aes(x = treatment, y = response_numeric)) +
   geom_boxplot()
+```
 
+```{r}
 # surveyData %>%
 #   group_by(treatment) %>%
 #   summarise(mean_response = mean(response_numeric),
@@ -308,16 +313,93 @@ surveyData %>%
 ```
 
 ```{r}
-surveyData <- surveyData %>%
-  mutate(age_factor = factor(age))
+# surveyData <- surveyData %>%
+#   mutate(age_unordered = factor(age, ordered = FALSE),
+#          income)
 
-lm <- lm(response_numeric ~ treatment + gender + age, data = surveyData)
-summary(lm)
+lm_1 <- lm(response_numeric ~ treatment, data = surveyData)
+lm_2 <- lm(response_numeric ~ treatment + gender + age + income + monthExpense + profWorker +
+             streamingService + phoneOS + noWifiHrs, data = surveyData)
+
+summary(lm_2)
 ```
+
+
+
 ```{r}
-surveyData %>%
-  mutate(age_factor = factor(age))
+stargazer(lm_1, lm_2,
+          title = "OLS Regression",
+          type = "text",
+          model.numbers = FALSE,
+          omit = c()
+)
 ```
+
+```{r}
+he_gender <- lm(response_numeric ~ treatment + gender + treatment:gender,
+                data = surveyData)
+
+he_age <- lm(response_numeric ~ treatment + age + treatment:age,
+                data = surveyData)
+
+he_income <- lm(response_numeric ~ treatment + income + treatment:income,
+                data = surveyData)
+
+he_expense <- lm(response_numeric ~ treatment + monthExpense + treatment:monthExpense,
+                data = surveyData)
+
+he_prof <- lm(response_numeric ~ treatment + profWorker + treatment:profWorker,
+                data = surveyData)
+
+he_streaming <- lm(response_numeric ~ treatment + streamingService + treatment:streamingService,
+                data = surveyData)
+
+he_os <- lm(response_numeric ~ treatment + phoneOS + treatment:phoneOS,
+                data = surveyData)
+
+he_wifi <- lm(response_numeric ~ treatment + noWifiHrs + treatment:noWifiHrs,
+                data = surveyData)
+
+```
+
+
+```{r}
+stargazer(he_gender, he_age,
+          title = "OLS Regression",
+          type = "text",
+          model.numbers = FALSE,
+          omit = c()
+)
+```
+
+```{r}
+stargazer(he_income, he_expense,
+          title = "OLS Regression",
+          type = "text",
+          model.numbers = FALSE,
+          omit = c()
+)
+```
+
+```{r}
+stargazer(he_prof, he_streaming,
+          title = "OLS Regression",
+          type = "text",
+          model.numbers = FALSE,
+          omit = c()
+)
+```
+
+```{r}
+stargazer(he_os, he_wifi,
+          title = "OLS Regression",
+          type = "text",
+          model.numbers = FALSE,
+          omit = c()
+)
+```
+
+
 
 ## 5. Results
 
