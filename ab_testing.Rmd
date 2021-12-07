@@ -328,7 +328,14 @@ stargazer(lm_1, lm_2,
           title = "OLS Regression",
           type = "text",
           model.numbers = FALSE,
-          omit = c()
+          omit = c(),
+          covariate.labels = c("Treatment", "Male", "Non-binary Gender",
+                               "Undeclared Gender", "Age 25-29", "Age 30-39",
+                               "Age 40+", "Income $25k-$50k", "Income $50k-$75k",
+                               "Income $75k-$100k", "Income $100k+", "Expense $1k-$2k",
+                               "Expense $2k-$3k", "Expense $3k-$4k", "Expense $4k+",
+                               "Professional", "Streaming Service", "iOS", "No Wifi 3h-6h",
+                               "No Wifi 6h-10h", "No Wifi 10h-15h", "No Wifi 15h+", "Constant")
 )
 ```
 
