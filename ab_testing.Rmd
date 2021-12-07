@@ -289,15 +289,15 @@ ggplot(surveyData, aes(x = noWifiHrs, group = 1)) +
 surveyData
 ```
 
-From the statistical test above, we can see that there is no significant difference in population characteristics between the treatment and control group so that the experiment is ideally randomized. In this section, we may try to look into the data and to quantitatively the causal effect of our treatment, the table format of presenting products, on the customers' likelihood of buying the premium one. 
+From the statistical test above, we can see that there is no significant difference in population characteristics between the treatment and control group so that the experiment is ideally randomized. In this section, we will study the causal effect of our treatment, the table format of presenting products, on the customers' likelihood of buying the premium one. 
 
-In the table below, we perform a T-test between the willingness to pay of the treatment and control group customers. From the result, we can see that the mean response for the treatment group (table format) is lower than that for the control group (paragraph format) and the difference between the two means is statistically significant at a 0.001 level. We may infer that the table format of presenting the product significantly brings down the customers' willingness to pay for the premium product than the paragraph format, given that both formats are assigned randomly.
+We perform a T-test between the willingness to pay of the treatment and control groups. From the result, we can see that the mean response for the treatment group (table format) is lower than that for the control group (paragraph format) and the difference between the two means is statistically significant at the 0.001 significance level. We may infer that the table format of presenting the product significantly brings down the customers' willingness to pay for the premium option than the paragraph format. 
 
 ```{r}
 t.test(surveyData$response_numeric ~ surveyData$treatment)
 ```
 
-The box graph below demonstrate the distribution of the response (likelihood or willingness to pay for the premium plan) from the two groups. We can see that most control group participants responded with a relatively positive answer, with most of them selecting 3 (somewhat likely) or higher; on the contrary, the treatment group participants responded with a relatively calm answer, while 50% (median) of the customers selected "likely" of different extent, a significant number of them in the treatment group selected "unlikely" or even "very unlikely" response.
+The box plot below demonstrates the distribution of the response (willingness to pay for the premium plan) from the control and treatment groups. We can see that most control group participants responded with a relatively positive answer, with most of them selecting 3 (somewhat likely) or higher; on the contrary, the treatment group participants responded with a relatively calm answer, while 50% (median) of the customers selected "likely" of different extent, a significant number of them in the treatment group selected "unlikely" or even "very unlikely" response. 
 
 ```{r}
 surveyData %>%
@@ -305,22 +305,9 @@ surveyData %>%
   geom_boxplot()
 ```
 
-```{r}
-# surveyData %>%
-#   group_by(treatment) %>%
-#   summarise(mean_response = mean(response_numeric),
-#             error_low = mean(response_numeric) - sd(response_numeric),
-#             error_hi = mean_response + sd(response_numeric)) %>%
-#   ggplot(aes(x = treatment, y = mean_response)) +
-#   geom_bar(stat = "identity") +
-#   geom_errorbar(aes(ymin = error_low, ymax = error_hi, width=0.2))
-```
 
 
 ```{r}
-# surveyData <- surveyData %>%
-#   mutate(age_unordered = factor(age, ordered = FALSE),
-#          income)
 
 lm_1 <- lm(response_numeric ~ treatment, data = surveyData)
 lm_2 <- lm(response_numeric ~ treatment + gender + age + income + monthExpense + profWorker +
@@ -328,13 +315,13 @@ lm_2 <- lm(response_numeric ~ treatment + gender + age + income + monthExpense +
 
 ```
 
-To further identify the treatment effect of the presenting format on the willingness to pay. We perform a series of regression using the data we collected as below.
+To further identify the treatment effect of the presenting format on the willingness to pay. We perform a series of regressions using the data we collected as below.
 
-The first column represents a simple OLS regression model of the treatment on the outcome variable. While the estimated constant term represent the average outcome level -- the likelihood/willingness to pay for the premium plan, the coefficient of the treatment variable stands for the causal effect from the presenting format. We may infer that on average, assuming the experiment is well randomized and all other factors are controlled, the table format of presenting or comparing product may bring down the mean likelihood of purchasing by -0.414, measured in a 6-point continuous scale.
+The first column represents a simple OLS regression model of the treatment on the outcome variable. While the estimated constant term represents the average outcome level -- the likelihood/willingness to pay for the premium plan, the coefficient of the treatment variable stands for the causal effect from the presenting format. We may infer that, on average, assuming the experiment is well randomized and all other factors controlled, the table format of presenting or comparing products may bring down the mean likelihood of purchasing by 0.414, measured in a 6-point continuous scale.
 
-The second column is the OLS model including all the control variables we collected from the participants. When controlling for more features between the two groups, we can still observe a significant gap between the mean paying likelihoods of the two groups.
+The second column is the OLS model, including all the control variables we collected from the participants. When controlling for more features between the two groups, we can still observe a significant gap between the likelihood of opting for the premium plan of the two groups.
 
-However, while the experiment is designed to be randomized by origin, we should expect that the controlling variables should distribute evenly between the two groups and most of these features should not demonstrate significant capability in explaining the variance in our outcome variable. From the table, we can still observe that some coefficients are statistically significant, e.g. the dummy indicating more than \$100,000 annual income, the dummy indicating monthly expense between \$3,000 to \$4,000, the dummy indicating the subscription of streaming service, and the dummy indicating the daily time without WIFI between 10 to 15 hours. The significance of these coefficients means that these attributes are not randomly assigned to the two groups and there are still some sort of underlying difference between the treatment and control group in the way of identifying the true causal effect.
+We expect that the control variables distribute evenly between the two groups, and they should not demonstrate significant capability in explaining the variance in our outcome variable. But from the table, we can still observe that some coefficients are statistically significant, e.g. the dummy indicating more than \$100,000 annual income, the dummy indicating monthly expense between \$3,000 to \$4,000, the dummy indicating the subscription of streaming service, and the dummy indicating the daily time without WIFI between 10 to 15 hours. The significance of these coefficients means that these attributes are not randomly assigned to the two groups. There are still some underlying differences between the treatment and control group to identify the true causal effect.
 
 ```{r}
 stargazer(lm_1, lm_2,
@@ -345,11 +332,13 @@ stargazer(lm_1, lm_2,
 )
 ```
 
-The treatment effects identified from the regression above reveal that table format of presenting products brings negative effects on the customers' willingness to pay for the premium services, at least in our phone plan scenario, which is somewhat contradicting to our original assumption that clearer comparison may nudge the customers to make a more premium choice. We guess that this phenomenon may be due to the following two reasons:
+The treatment effects identified from the regression above reveal that the table format of presenting products brings negative effects on the customers' willingness to pay for the premium services, at least in our phone plan scenario, which is somewhat contradicting our original assumption that clearer comparison may nudge the customers to make a more premium choice. We guess that this phenomenon may be due to the following two reasons:
 
-1. The table format helps customers to behave more rational. The comparison table clearly lists the functional differences between the two services, which enable customers to compare price differences and feature differences between products more straightforward and quantitatively. The more complete the customer's understanding of product information, the more impulsive consumption behavior may be offset by rationality. When the customers understand the product more completely, their impulsive consumption behavior may be replaced by rational behavior.
+1. The table format helps customers to behave more rationally. The comparison table clearly lists the functional differences between the two services, enabling customers to compare price differences and feature differences between products more straightforwardly and quantitatively. The more complete the customer's understanding of product information, the more impulsive consumption behavior may be offset by rationality.
 
-2. The design of the standard and premium plan in our scenario is unreasonable. When most of our functions of the two plans as well as the pricing strategies are determined arbitrarily, we may probably come up with two plans with inductive bias that comes from the consumption habits of the designers. Although we believe that the two plans should be equally attractive to customers, one of them may turn out to be the one more favored by the real world users. In our case, the standard plan may seem more cost-effective so that when the information of the two plans are revealed more thoroughly, more customers may turn to the standard one.
+2. The standard and premium plan design in our scenario is unreasonable. When most of the functions of the two plans and the pricing strategies are determined arbitrarily, we may probably come up with two plans with inductive bias that comes from the consumption habits of the designers. Although we believe that the two plans should be equally attractive to customers, one of them may be the one more favored by the real-world users. In our case, the standard plan may seem more cost-effective so that when the information of the two plans is revealed more thoroughly, more customers may turn to the standard one.
+
+In the next section, we study the heterogeneous effects. How does the treatment effect differ for different types of respondents?
 
 ```{r}
 he_gender <- lm(response_numeric ~ treatment + gender + treatment:gender,
@@ -412,6 +401,7 @@ stargazer(he_prof, he_streaming,
           omit = c()
 )
 ```
+
 This table shows the heterogeneous effect of covariate 'profworker' (whether they are professional workers) and the heterogeneous effect of covariate 'streamingService' (Whether they have streaming service). We could find that the two heterogeneous effect are both not statistically significant, which indicates that the treatment affect sub-groups similarly, in other words, this heterogeneous effect is similar across different sub-groups. 
 
 ```{r}
@@ -423,7 +413,9 @@ stargazer(he_os, he_wifi,
 )
 ```
 
-This table shows the heterogeneous effect of covariate 'phoneOS' (cellphone operating system type) and the heterogeneous effect of covariate 'noWifiHrs' (the number of hours without wifi access). We could find that the heterogeneous effect of 'phoneOS' is not statistically significant, which indicates that the treatment affect sub-groups(people who use IOS, people who use Android) similarly, in other words, this heterogeneous effect is similar across different sub-groups of variable 'phoneOS'. However, for the heterogeneous effect of sub-groups in variable 'nowifiHrs', we could discover that this effect is different for people who have no access to WIFI for 10-15 hours. This makes sense, since people tend to buy premium (unlimited cellular data) when they have little access to WIFI. 
+This table shows the heterogeneous effect of covariate 'phoneOS' (cellphone operating system type) and the heterogeneous effect of covariate 'noWifiHrs' (the number of hours without wifi access). We could find that the heterogeneous effect of 'phoneOS' is not statistically significant, which indicates that the treatment affect sub-groups(people who use IOS, people who use Android) similarly. In other words, this heterogeneous effect is similar across different sub-groups of variable 'phoneOS'. 
+
+However, the treatment effect for respondents who don't have access to WIFI for 10-15 hours is less than that for respondents who don't have access to WIFI for 0-3 hours. This makes sense, since people tend to buy premium (unlimited cellular data) when they have little access to WIFI. 
 
 ## 5. Results
 
