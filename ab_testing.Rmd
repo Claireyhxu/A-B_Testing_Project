@@ -372,6 +372,11 @@ stargazer(he_gender, he_age,
 )
 ```
 
+The treatment effect for males is less than that for females. On average, controlling for other factors, a table comparison of features is associated with 0.679 unit less likelihood of opting for the premium option for females, but only 0.178 unit less for males. 
+
+The treatment effect doesn't vary by age group.
+
+
 ```{r}
 stargazer(he_income, he_expense,
           title = "OLS Regression",
@@ -380,6 +385,8 @@ stargazer(he_income, he_expense,
           omit = c()
 )
 ```
+
+The treatment effect doesn't vary by income group or monthly expense group.
 
 ```{r}
 stargazer(he_prof, he_streaming,
