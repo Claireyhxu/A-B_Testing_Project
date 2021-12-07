@@ -189,7 +189,9 @@ ggplot(surveyData, aes(x = gender, group = 1)) +
    theme(axis.text.x = element_text(angle = 90)) +
    labs(title = "Gender distribution in treated and untreated group",
         caption = "*0 means untreated and 1 means treated")
+```
 
+```{r, include=FALSE}
 # Age
 ggplot(surveyData, aes(x = age, group = 1)) +
    geom_bar(aes(y = ..prop..), stat = 'count', fill = "lightblue") +
@@ -197,7 +199,10 @@ ggplot(surveyData, aes(x = age, group = 1)) +
    facet_grid(~ treatment) +
    labs(title = "Age distribution in treated and untreated group",
         caption = "*0 means untreated and 1 means treated")
+```
 
+
+```{r, include=FALSE}
 # Income
 ggplot(surveyData, aes(x = income, group = 1)) +
    geom_bar(aes(y = ..prop..), stat = 'count', fill = "lightblue") +
@@ -206,7 +211,10 @@ ggplot(surveyData, aes(x = income, group = 1)) +
    theme(axis.text.x = element_text(angle = 90)) +
    labs(title = "Income distribution in treated and untreated group",
         caption = "*0 means untreated and 1 means treated")
+```
 
+
+```{r, include=FALSE}
 
 # Monthly Expense
 ggplot(surveyData, aes(x = monthExpense, group = 1)) +
@@ -217,7 +225,10 @@ ggplot(surveyData, aes(x = monthExpense, group = 1)) +
    labs(title = "Distribution of monthly expenses in treated and untreated group",
         caption = "*0 means untreated and 1 means treated
         ** Expenses are beside mortagage / rent")
+```
 
+
+```{r, include=FALSE}
 # Professionally Employed
 ggplot(surveyData, aes(x = profWorker, group = 1)) +
    geom_bar(aes(y = ..prop..), stat = 'count', fill = "lightblue") +
@@ -225,7 +236,10 @@ ggplot(surveyData, aes(x = profWorker, group = 1)) +
    facet_grid(~ treatment) +
    labs(title = "Distribution of professional workers in treated and untreated group",
         caption = "*0 means untreated and 1 means treated")
+```
 
+
+```{r, include=FALSE}
 # Streaming Service Subscribers
 ggplot(surveyData, aes(x = streamingService, group = 1)) +
    geom_bar(aes(y = ..prop..), stat = 'count', fill = "lightblue") +
@@ -233,7 +247,10 @@ ggplot(surveyData, aes(x = streamingService, group = 1)) +
    facet_grid(~ treatment) +
    labs(title = "Distribution of streaming service subscribers in treated and untreated group",
         caption = "*0 means untreated and 1 means treated")
+```
 
+
+```{r, include=FALSE}
 # Mobile OS
 ggplot(surveyData, aes(x = phoneOS, group = 1)) +
    geom_bar(aes(y = ..prop..), stat = 'count', fill = "lightblue") +
@@ -241,7 +258,10 @@ ggplot(surveyData, aes(x = phoneOS, group = 1)) +
    facet_grid(~ treatment) +
    labs(title = "iOS/Android users' distribution in treated and untreated group",
         caption = "*0 means untreated and 1 means treated")
+```
 
+
+```{r, include=FALSE}
 # No Wifi Hours
 ggplot(surveyData, aes(x = noWifiHrs, group = 1)) +
    geom_bar(aes(y = ..prop..), stat = 'count', fill = "lightblue") +
@@ -253,6 +273,51 @@ ggplot(surveyData, aes(x = noWifiHrs, group = 1)) +
 ```
 
 ## 4. Regressions
+
+```{r}
+surveyData
+```
+
+```{r}
+surveyData <- surveyData %>%
+  mutate(response_numeric = ifelse(response == "5 - I will surely take the plan",5, 
+                                   ifelse(response == "4 - Highly likely", 4, 
+                                          ifelse(response == "3 - Somewhat likely", 3, 
+                                                 ifelse(response == "2 - Somewhat not likely", 2, 
+                                                        ifelse(response == "1 - Probably not", 1, 
+                                                               ifelse(response == "0 - Not likely at all", 0, NA)))))))
+```
+
+```{r}
+t.test(surveyData$response_numeric ~ surveyData$treatment)
+```
+
+```{r}
+surveyData %>%
+  ggplot(aes(x = treatment, y = response_numeric)) +
+  geom_boxplot()
+
+# surveyData %>%
+#   group_by(treatment) %>%
+#   summarise(mean_response = mean(response_numeric),
+#             error_low = mean(response_numeric) - sd(response_numeric),
+#             error_hi = mean_response + sd(response_numeric)) %>%
+#   ggplot(aes(x = treatment, y = mean_response)) +
+#   geom_bar(stat = "identity") +
+#   geom_errorbar(aes(ymin = error_low, ymax = error_hi, width=0.2))
+```
+
+```{r}
+surveyData <- surveyData %>%
+  mutate(age_factor = factor(age))
+
+lm <- lm(response_numeric ~ treatment + gender + age, data = surveyData)
+summary(lm)
+```
+```{r}
+surveyData %>%
+  mutate(age_factor = factor(age))
+```
 
 ## 5. Results
 
