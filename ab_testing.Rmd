@@ -12,6 +12,7 @@ header-includes:
    \fancypagestyle{plain}{\pagestyle{fancy}}
    \title{\textbf{Will offering a feature-by-feature comparison table encourage customers to opt for the premium plan?}}
 output: pdf_document
+# output: html_document
 ---
 
 ```{=latex}
@@ -380,7 +381,10 @@ stargazer(he_gender, he_age,
           title = "OLS Regression",
           type = "text",
           model.numbers = FALSE,
-          omit = c()
+          covariate.labels = c("Treatment", "Male", "Non-binary Gender",
+                               "Undeclared Gender", "Treatment:Male", "Treatment:Non-binary", "Treatment:Undeclared",
+                               "Age 25-29", "Age 30-39", "Age 40+", "Treatment:Age 25-29", 
+                               "Treatment:Age 30-39", "Treatment:Age 40+", "Constant")
 )
 ```
 
@@ -394,7 +398,12 @@ stargazer(he_income, he_expense,
           title = "OLS Regression",
           type = "text",
           model.numbers = FALSE,
-          omit = c()
+          covariate.labels = c("Treatment", "Income $25k-$50k", "Income $50k-$75k",
+                               "Income $75k-$100k", "Income $100k+", "Treatment:Income $25k-$50k", 
+                               "Treatment:Income $50k-$75k", "Treatment:Income $75k-$100k", "Treatment:Income $100k+",
+                               "Expense $1k-$2k", "Expense $2k-$3k", "Expense $3k-$4k", "Expense $4k+",
+                               "Treatment:Expense $1k-$2k", "Treatment:Expense $2k-$3k", 
+                               "Treatment:Expense $3k-$4k", "Treatment:Expense $4k+", "Constant")
 )
 ```
 
@@ -405,7 +414,9 @@ stargazer(he_prof, he_streaming,
           title = "OLS Regression",
           type = "text",
           model.numbers = FALSE,
-          omit = c()
+          covariate.labels = c("Treatment", "Professional", "Treatment:Professional",
+                               "Streaming Service", "Treatment:Streaming Service",
+                               "Constant")
 )
 ```
 
@@ -416,7 +427,11 @@ stargazer(he_os, he_wifi,
           title = "OLS Regression",
           type = "text",
           model.numbers = FALSE,
-          omit = c()
+          covariate.labels = c("Treatment", "iOS", "Treatment:iOS", "No Wifi 3h-6h",
+                               "No Wifi 6h-10h", "No Wifi 10h-15h", "No Wifi 15h+",
+                               "Treatment:No Wifi 3h-6h", "Treatment:No Wifi 6h-10h", 
+                               "Treatment:No Wifi 10h-15h", "Treatment:No Wifi 15h+",
+                               "Constant")
 )
 ```
 
