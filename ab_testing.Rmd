@@ -95,8 +95,35 @@ surveyData <- surveyData %>%
 ```
 
 ## 1. Executive Summary
-
+Nowadays, online payment methods are becoming more and more mature. People more or less need to perform some payment behaviors online to meet their daily needs, such as subscribing to members, upgrading premium accounts, and paying for packages. There are various online payment and promotion methods. For merchants, differentiated pricing is an important way to divide customer groups and obtain higher profits. Compared with telephone or oral promotion, a major advantage of web promotion is that it can clearly list the advantages of various paid packages and the content covered, making it easier for users to consume on demand, and it is also easier for users to perceive the implicit Demand drives them to consume more advanced plans.
+In web promotion, we often see that different plans are covered in a highly visible table-forms to promote the functions that these plans can achieve from different aspects. There are also some web pages that just list the functions of different plans, but they are usually a long string of obscure text or comments. We are trying to explore whether the use of visual tables will promote users' desire to buy, and through clear comparison, whether users will be more likely to choose advanced plans.
 ## 2. Experimental Design
+Our experimental questionnaire will consist of two parts. The first part is the main A/B test problem, which is to provide the same information to the user but the way it is presented is different. It is distinguished by means of visual tables and large paragraphs of text. The second part is the user division problem, which mainly asks questions related to user characteristics, so as to facilitate randomization of user groups.
+
+Evaluation Metrics
+Compared to the standard plan, how likely is it that you will opt for the premium plan?
+Range from 0 to 5
+0 - Not likely at all
+1 - Probably not
+2 - Somewhat not likely 
+3 - Somewhat likely 
+4 - Highly likely 
+5 - I will surely take the plan
+
+
+Survey Questions (Control Variables)
+Age
+Gender
+Income (in bracket ranges)
+Are you employed / working professional?
+Does your employer pay for the plan?
+Which country are you from?
+Do you have any experience with online subscriptions before? If so, how much on avg /month?
+Do you use iOS or Android?
+How many family members do you have in your household?
+On average, how many hours per day you don’t have access to wifi?
+Question for proxy of spending habit
+
 
 ## 3. Descriptive Statistical Analysis
 
