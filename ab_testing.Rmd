@@ -439,6 +439,7 @@ This table shows the heterogeneous effect of covariate 'phoneOS' (cellphone oper
 
 However, the treatment effect for respondents who don't have access to WIFI for 10-15 hours is less than that for respondents who don't have access to WIFI for 0-3 hours. This makes sense, since people tend to buy premium (unlimited cellular data) when they have little access to WIFI. 
 
-## 5. Results
+## 5. Results(I think this should be combined with part 4)
 
 ## 6. Conclusion
+To sum up the above causal effect analysis, we conclude that table format of comparing products will potentially reduce the consumers’ desire to purchase premium products, which contradicts to our initial hypothesis. The accuracy of this experiment may suffer from relatively small sample. In the future analysis, we would like to collect more information from larger sample size to improve the analysis results. 
